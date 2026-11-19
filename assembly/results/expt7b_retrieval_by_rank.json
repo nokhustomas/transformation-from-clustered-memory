@@ -1,0 +1,101 @@
+{
+ "n_batches": 4000,
+ "batch_size": 32,
+ "seq_len": 64,
+ "chance_level": 0.125,
+ "canonical_group_per_class": {
+  "0": 15,
+  "1": 6,
+  "2": 14,
+  "3": 11,
+  "4": 9,
+  "5": 12,
+  "6": 7,
+  "7": 10
+ },
+ "canonical_group_purity": {
+  "0": 1.0,
+  "1": 1.0,
+  "2": 1.0,
+  "3": 1.0,
+  "4": 1.0,
+  "5": 1.0,
+  "6": 1.0,
+  "7": 1.0
+ },
+ "n_distinct_canonical_groups": 8,
+ "rows": [
+  {
+   "rank": 0,
+   "emit_prob_within_class": 0.37,
+   "n_positions": 3031273,
+   "frac_assigned_to_any_group": 1.0,
+   "n_assigned": 3031273,
+   "correct_group_acc_among_assigned": 1.0,
+   "correct_group_acc_over_all_positions": 1.0
+  },
+  {
+   "rank": 1,
+   "emit_prob_within_class": 0.25,
+   "n_positions": 2048368,
+   "frac_assigned_to_any_group": 1.0,
+   "n_assigned": 2048368,
+   "correct_group_acc_among_assigned": 1.0,
+   "correct_group_acc_over_all_positions": 1.0
+  },
+  {
+   "rank": 2,
+   "emit_prob_within_class": 0.15,
+   "n_positions": 1229333,
+   "frac_assigned_to_any_group": 1.0,
+   "n_assigned": 1229333,
+   "correct_group_acc_among_assigned": 1.0,
+   "correct_group_acc_over_all_positions": 1.0
+  },
+  {
+   "rank": 3,
+   "emit_prob_within_class": 0.1,
+   "n_positions": 818115,
+   "frac_assigned_to_any_group": 1.0,
+   "n_assigned": 818115,
+   "correct_group_acc_among_assigned": 1.0,
+   "correct_group_acc_over_all_positions": 1.0
+  },
+  {
+   "rank": 4,
+   "emit_prob_within_class": 0.08,
+   "n_positions": 656515,
+   "frac_assigned_to_any_group": 1.0,
+   "n_assigned": 656515,
+   "correct_group_acc_among_assigned": 1.0,
+   "correct_group_acc_over_all_positions": 1.0
+  },
+  {
+   "rank": 5,
+   "emit_prob_within_class": 0.04957,
+   "n_positions": 406560,
+   "frac_assigned_to_any_group": 1.0,
+   "n_assigned": 406560,
+   "correct_group_acc_among_assigned": 1.0,
+   "correct_group_acc_over_all_positions": 1.0
+  },
+  {
+   "rank": 6,
+   "emit_prob_within_class": 0.0002,
+   "n_positions": 1606,
+   "frac_assigned_to_any_group": 0.9950186799501868,
+   "n_assigned": 1598,
+   "correct_group_acc_among_assigned": 0.9937421777221527,
+   "correct_group_acc_over_all_positions": 0.9887920298879203
+  },
+  {
+   "rank": 7,
+   "emit_prob_within_class": 3e-05,
+   "n_positions": 230,
+   "frac_assigned_to_any_group": 0.8608695652173913,
+   "n_assigned": 198,
+   "correct_group_acc_among_assigned": 0.5202020202020202,
+   "correct_group_acc_over_all_positions": 0.44782608695652176
+  }
+ ]
+}

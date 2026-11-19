@@ -1,0 +1,20 @@
+
+=== topkraw budget=4 ===
+step    1/700  eval_acc=0.0146  null_attn_weight_mean=0.3322
+step  100/700  eval_acc=0.0518  null_attn_weight_mean=0.2594
+step  200/700  eval_acc=0.0605  null_attn_weight_mean=0.2695
+step  300/700  eval_acc=0.0576  null_attn_weight_mean=0.2785
+step  400/700  eval_acc=0.0723  null_attn_weight_mean=0.2807
+step  500/700  eval_acc=0.0586  null_attn_weight_mean=0.2835
+step  600/700  eval_acc=0.0635  null_attn_weight_mean=0.2849
+step  700/700  eval_acc=0.0586  null_attn_weight_mean=0.2849
+
+=== cma budget=4 ===
+step    1/700  eval_acc=0.0137  null_attn_weight_mean=0.4152
+step  100/700  eval_acc=0.0518  null_attn_weight_mean=0.3228
+step  200/700  eval_acc=0.0605  null_attn_weight_mean=0.3432
+step  300/700  eval_acc=0.0576  null_attn_weight_mean=0.3593
+step  400/700  eval_acc=0.0723  null_attn_weight_mean=0.3630
+step  500/700  eval_acc=0.0586  null_attn_weight_mean=0.3691
+step  600/700  eval_acc=0.0684  null_attn_weight_mean=0.3724
+step  700/700  eval_acc=0.0586  null_attn_weight_mean=0.3725

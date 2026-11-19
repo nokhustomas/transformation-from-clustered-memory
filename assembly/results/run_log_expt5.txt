@@ -1,0 +1,57 @@
+实验五: 训练中补全。emit=[0.37, 0.25, 0.15, 0.1, 0.08, 0.04957, 0.0002, 3e-05], 最优loss=3.0988, 时间表: 600步纯登记 -> 600步alpha爬升 -> alpha=1.0
+
+== 训练 base seed=0 ==
+  [off seed0 step 500/3000] loss=3.1361 alpha=0.00 (20s)
+  [off seed0 step 1000/3000] loss=3.0880 alpha=0.67 (36s)
+  [off seed0 step 1500/3000] loss=3.1289 alpha=1.00 (50s)
+  [off seed0 step 2000/3000] loss=3.0833 alpha=1.00 (68s)
+  [off seed0 step 2500/3000] loss=3.0688 alpha=1.00 (81s)
+  [off seed0 step 3000/3000] loss=3.1397 alpha=1.00 (94s)
+  [base seed0] all=3.0976 | rare 带补全=3.2246 关补全=3.2246 (n=130)
+
+== 训练 complete seed=0 ==
+  [on seed0 step 500/3000] loss=3.1361 alpha=0.00 (29s)
+  [on seed0 step 1000/3000] loss=3.0881 alpha=0.67 (44s)
+  [on seed0 step 1500/3000] loss=3.1304 alpha=1.00 (60s)
+  [on seed0 step 2000/3000] loss=3.0834 alpha=1.00 (74s)
+  [on seed0 step 2500/3000] loss=3.0689 alpha=1.00 (89s)
+  [on seed0 step 3000/3000] loss=3.1398 alpha=1.00 (104s)
+  [complete seed0] all=3.0976 | rare 带补全=3.2232 关补全=3.2244 (n=130)
+
+== 训练 placebo seed=0 ==
+  [placebo seed0 step 500/3000] loss=3.1361 alpha=0.00 (19s)
+  [placebo seed0 step 1000/3000] loss=3.0902 alpha=0.67 (35s)
+  [placebo seed0 step 1500/3000] loss=3.1306 alpha=1.00 (48s)
+  [placebo seed0 step 2000/3000] loss=3.0841 alpha=1.00 (61s)
+  [placebo seed0 step 2500/3000] loss=3.0671 alpha=1.00 (74s)
+  [placebo seed0 step 3000/3000] loss=3.1439 alpha=1.00 (87s)
+  [placebo seed0] all=3.1130 | rare 带补全=3.3701 关补全=3.2879 (n=130)
+
+== 训练 base seed=1 ==
+  [off seed1 step 500/3000] loss=3.0599 alpha=0.00 (22s)
+  [off seed1 step 1000/3000] loss=3.0853 alpha=0.67 (38s)
+  [off seed1 step 1500/3000] loss=3.0545 alpha=1.00 (52s)
+  [off seed1 step 2000/3000] loss=3.0550 alpha=1.00 (65s)
+  [off seed1 step 2500/3000] loss=3.0327 alpha=1.00 (78s)
+  [off seed1 step 3000/3000] loss=3.1384 alpha=1.00 (91s)
+  [base seed1] all=3.0976 | rare 带补全=3.2789 关补全=3.2789 (n=130)
+
+== 训练 complete seed=1 ==
+  [on seed1 step 500/3000] loss=3.0599 alpha=0.00 (20s)
+  [on seed1 step 1000/3000] loss=3.0853 alpha=0.67 (38s)
+  [on seed1 step 1500/3000] loss=3.0545 alpha=1.00 (53s)
+  [on seed1 step 2000/3000] loss=3.0550 alpha=1.00 (67s)
+  [on seed1 step 2500/3000] loss=3.0330 alpha=1.00 (82s)
+  [on seed1 step 3000/3000] loss=3.1385 alpha=1.00 (97s)
+  [complete seed1] all=3.0976 | rare 带补全=3.2765 关补全=3.2857 (n=130)
+
+== 训练 placebo seed=1 ==
+  [placebo seed1 step 500/3000] loss=3.0599 alpha=0.00 (23s)
+  [placebo seed1 step 1000/3000] loss=3.0885 alpha=0.67 (41s)
+  [placebo seed1 step 1500/3000] loss=3.0652 alpha=1.00 (56s)
+  [placebo seed1 step 2000/3000] loss=3.0885 alpha=1.00 (70s)
+  [placebo seed1 step 2500/3000] loss=3.0369 alpha=1.00 (83s)
+  [placebo seed1 step 3000/3000] loss=3.3323 alpha=1.00 (96s)
+  [placebo seed1] all=3.2837 | rare 带补全=3.4179 关补全=3.3750 (n=130)
+
+完成。结果: /home/claude/work/cluster_memory_transformer/assembly/results/expt5_intraining.json

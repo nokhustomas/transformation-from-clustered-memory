@@ -1,0 +1,34 @@
+== pilot: 扫覆盖度 k(每个修饰词见过几个动作词), 基线在没见过组合上的表现 ==
+/home/claude/work/cluster_memory_transformer/assembly/run_expt9_compose.py:143: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:822.)
+  print(f"{log_prefix} step {step}/{steps} loss={float(loss):.4f}", flush=True)
+[k=2 seed=0] step 1000/3000 loss=0.0002
+[k=2 seed=0] step 2000/3000 loss=0.0001
+[k=2 seed=0] step 3000/3000 loss=0.0000
+  k=2 seed=0: 见过的组合 1.00 | 没见过的 0.00 (12个)
+[k=2 seed=1] step 1000/3000 loss=0.0001
+[k=2 seed=1] step 2000/3000 loss=0.0001
+[k=2 seed=1] step 3000/3000 loss=0.0000
+  k=2 seed=1: 见过的组合 1.00 | 没见过的 0.00 (12个)
+[k=2 seed=2] step 1000/3000 loss=0.0002
+[k=2 seed=2] step 2000/3000 loss=0.0001
+[k=2 seed=2] step 3000/3000 loss=0.0001
+  k=2 seed=2: 见过的组合 1.00 | 没见过的 0.17 (12个)
+k=2: 没见过组合平均 0.06
+[k=3 seed=0] step 1000/3000 loss=0.0002
+[k=3 seed=0] step 2000/3000 loss=0.0001
+[k=3 seed=0] step 3000/3000 loss=0.0001
+  k=3 seed=0: 见过的组合 1.00 | 没见过的 0.20 (10个)
+[k=3 seed=1] step 1000/3000 loss=0.0002
+[k=3 seed=1] step 2000/3000 loss=0.0001
+[k=3 seed=1] step 3000/3000 loss=0.0001
+  k=3 seed=1: 见过的组合 1.00 | 没见过的 0.10 (10个)
+[k=3 seed=2] step 1000/3000 loss=0.0002
+[k=3 seed=2] step 2000/3000 loss=0.0001
+[k=3 seed=2] step 3000/3000 loss=0.0001
+  k=3 seed=2: 见过的组合 1.00 | 没见过的 0.20 (10个)
+k=3: 没见过组合平均 0.17
+[k=4 seed=0] step 1000/3000 loss=0.0002
+[k=4 seed=0] step 2000/3000 loss=0.0001
+[k=4 seed=0] step 3000/3000 loss=0.0001
+  k=4 seed=0: 见过的组合 1.00 | 没见过的 0.12 (8个)

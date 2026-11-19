@@ -1,0 +1,20 @@
+
+=== topkraw_pertoken budget=4 ===
+step    1/700  eval_acc=0.0098  null_attn_weight_mean=0.4437
+step  100/700  eval_acc=0.0518  null_attn_weight_mean=0.3268
+step  200/700  eval_acc=0.0605  null_attn_weight_mean=0.3644
+step  300/700  eval_acc=0.0576  null_attn_weight_mean=0.3762
+step  400/700  eval_acc=0.0723  null_attn_weight_mean=0.3777
+step  500/700  eval_acc=0.0586  null_attn_weight_mean=0.3806
+step  600/700  eval_acc=0.0664  null_attn_weight_mean=0.3816
+step  700/700  eval_acc=0.0586  null_attn_weight_mean=0.3819
+
+=== cma_pertoken budget=4 ===
+step    1/700  eval_acc=0.0176  null_attn_weight_mean=0.4449
+step  100/700  eval_acc=0.0518  null_attn_weight_mean=0.3241
+step  200/700  eval_acc=0.0605  null_attn_weight_mean=0.3464
+step  300/700  eval_acc=0.0576  null_attn_weight_mean=0.3638
+step  400/700  eval_acc=0.0723  null_attn_weight_mean=0.3678
+step  500/700  eval_acc=0.0586  null_attn_weight_mean=0.3740
+step  600/700  eval_acc=0.0684  null_attn_weight_mean=0.3764
+step  700/700  eval_acc=0.0586  null_attn_weight_mean=0.3762

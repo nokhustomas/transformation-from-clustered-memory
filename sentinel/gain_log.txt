@@ -1,0 +1,17 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 6518.89it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (551804 > 1024). Running this sequence through the model will result in indexing errors
+评测: 60 篇 × 2048 token
+[transformers] `loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+不动(基线): loss=2.8900±0.0657
+
+权重调节 L4 α=0.25                 loss=2.8933  Δ=+0.0034  ≈无变化  (253s)
+权重调节 L4 α=0.5                  loss=2.8996  Δ=+0.0096  ≈无变化  (382s)
+权重调节 L4 α=1.0                  loss=2.9184  Δ=+0.0285  ≈无变化  (512s)
+权重调节 L4 α=2.0                  loss=2.9755  Δ=+0.0856  ≈无变化  (641s)
+权重调节 L4 α=1.0 [注错组]            loss=2.8966  Δ=+0.0067  ≈无变化  (769s)
+权重调节 L2+L4 α=0.5               loss=2.9002  Δ=+0.0103  ≈无变化  (909s)
+权重调节 L2+L4 α=1.0               loss=2.9237  Δ=+0.0337  ≈无变化  (1047s)
+贴常数 L4 α=1.0 [旧方式复核]           loss=2.8932  Δ=+0.0033  ≈无变化  (1175s)
+
+完成, 19.6 分钟。

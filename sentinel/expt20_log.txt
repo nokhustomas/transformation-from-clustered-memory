@@ -1,0 +1,23 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 30930.24it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (551804 > 1024). Running this sequence through the model will result in indexing errors
+拟合 60 篇 / 评测 60 篇 (互不重叠的采样种子)
+  累积 20/60 篇, 40960 行 (88s)
+  累积 40/60 篇, 81920 行 (171s)
+  累积 60/60 篇, 122880 行 (255s)
+法方程累积完成: 122880 个位置 (255s)
+[transformers] `loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+  ridge λ=0.1: 验证 loss=2.7842
+  ridge λ=1.0: 验证 loss=2.7842
+  ridge λ=10.0: 验证 loss=2.7842
+  ridge λ=100.0: 验证 loss=2.7853
+选定 λ=0.1
+
+健康=2.9094 损坏=2.9545 (损坏代价 +0.0451)
+
+  transform    loss=2.9171  恢复=83%
+  shift_only   loss=2.9725  恢复=-40%
+  ema          loss=3.0654  恢复=-246%
+  patch        loss=2.9154  恢复=87%
+
+完成 20.3 分钟

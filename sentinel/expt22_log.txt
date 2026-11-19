@@ -1,0 +1,21 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 31402.53it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (551804 > 1024). Running this sequence through the model will result in indexing errors
+  拟合累积 30/60 (121s)
+  拟合累积 60/60 (240s)
+A 拟合完成(损伤=砍30%, 领域=in) (241s)
+
+=== 跨损伤类型迁移(同领域 in) ===
+[transformers] `loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+  砍30%(拟合时的损伤)     伤害=+0.0467  变换恢复=83%  oracle=100% (613s)
+  砍10%             伤害=+0.0144  变换恢复=68%  oracle=100% (987s)
+  卡死30%            伤害=+0.0955  变换恢复=33%  oracle=100% (1349s)
+  量化4级             伤害=+0.7275  变换恢复=21%  oracle=100% (1714s)
+  高斯噪声0.5x         伤害=+0.0497  变换恢复=-10%  oracle=100% (2093s)
+
+=== 跨领域迁移(损伤固定为砍30%) ===
+  in     伤害=+0.0448  变换恢复=83%  oracle=100% (2481s)
+  near   伤害=+0.0297  变换恢复=77%  oracle=100% (2861s)
+  far    伤害=+0.0226  变换恢复=-9%  oracle=100% (3254s)
+
+完成 54.2 分钟

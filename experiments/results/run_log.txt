@@ -1,0 +1,259 @@
+总计划 16 个 run, N_STEPS=1300
+
+=== 开始 [1/16 nomemory seed=0 budget=None] ===
+[1/16 nomemory seed=0 budget=None] step  100/1300  eval_acc=0.085  eval_loss=2.839  (10s)
+[1/16 nomemory seed=0 budget=None] step  200/1300  eval_acc=0.058  eval_loss=2.803  (20s)
+[1/16 nomemory seed=0 budget=None] step  300/1300  eval_acc=0.053  eval_loss=2.796  (29s)
+[1/16 nomemory seed=0 budget=None] step  400/1300  eval_acc=0.059  eval_loss=2.789  (39s)
+[1/16 nomemory seed=0 budget=None] step  500/1300  eval_acc=0.064  eval_loss=2.790  (48s)
+[1/16 nomemory seed=0 budget=None] step  600/1300  eval_acc=0.055  eval_loss=2.779  (57s)
+[1/16 nomemory seed=0 budget=None] step  700/1300  eval_acc=0.052  eval_loss=2.785  (67s)
+[1/16 nomemory seed=0 budget=None] step  800/1300  eval_acc=0.069  eval_loss=2.779  (77s)
+[1/16 nomemory seed=0 budget=None] step  900/1300  eval_acc=0.054  eval_loss=2.777  (86s)
+[1/16 nomemory seed=0 budget=None] step 1000/1300  eval_acc=0.067  eval_loss=2.777  (95s)
+[1/16 nomemory seed=0 budget=None] step 1100/1300  eval_acc=0.071  eval_loss=2.774  (104s)
+[1/16 nomemory seed=0 budget=None] step 1200/1300  eval_acc=0.059  eval_loss=2.775  (115s)
+[1/16 nomemory seed=0 budget=None] step 1300/1300  eval_acc=0.067  eval_loss=2.774  (124s)
+=== 完成 [1/16 nomemory seed=0 budget=None]  final_acc=0.067 用时124s ===
+
+=== 开始 [2/16 fullattn seed=0 budget=None] ===
+[2/16 fullattn seed=0 budget=None] step  100/1300  eval_acc=0.085  eval_loss=2.838  (13s)
+[2/16 fullattn seed=0 budget=None] step  200/1300  eval_acc=0.070  eval_loss=2.799  (25s)
+[2/16 fullattn seed=0 budget=None] step  300/1300  eval_acc=0.240  eval_loss=2.484  (38s)
+[2/16 fullattn seed=0 budget=None] step  400/1300  eval_acc=0.233  eval_loss=2.330  (50s)
+[2/16 fullattn seed=0 budget=None] step  500/1300  eval_acc=0.250  eval_loss=2.306  (63s)
+[2/16 fullattn seed=0 budget=None] step  600/1300  eval_acc=0.256  eval_loss=2.235  (76s)
+[2/16 fullattn seed=0 budget=None] step  700/1300  eval_acc=0.268  eval_loss=2.223  (88s)
+[2/16 fullattn seed=0 budget=None] step  800/1300  eval_acc=0.278  eval_loss=2.194  (101s)
+[2/16 fullattn seed=0 budget=None] step  900/1300  eval_acc=0.285  eval_loss=2.137  (114s)
+[2/16 fullattn seed=0 budget=None] step 1000/1300  eval_acc=0.302  eval_loss=2.084  (127s)
+[2/16 fullattn seed=0 budget=None] step 1100/1300  eval_acc=0.312  eval_loss=2.064  (141s)
+[2/16 fullattn seed=0 budget=None] step 1200/1300  eval_acc=0.329  eval_loss=2.020  (155s)
+[2/16 fullattn seed=0 budget=None] step 1300/1300  eval_acc=0.314  eval_loss=2.033  (168s)
+=== 完成 [2/16 fullattn seed=0 budget=None]  final_acc=0.314 用时168s ===
+
+=== 开始 [3/16 topkraw seed=0 budget=4] ===
+[3/16 topkraw seed=0 budget=4] step  100/1300  eval_acc=0.085  eval_loss=2.841  (21s)
+[3/16 topkraw seed=0 budget=4] step  200/1300  eval_acc=0.067  eval_loss=2.803  (41s)
+[3/16 topkraw seed=0 budget=4] step  300/1300  eval_acc=0.062  eval_loss=2.786  (62s)
+[3/16 topkraw seed=0 budget=4] step  400/1300  eval_acc=0.060  eval_loss=2.788  (82s)
+[3/16 topkraw seed=0 budget=4] step  500/1300  eval_acc=0.061  eval_loss=2.791  (103s)
+[3/16 topkraw seed=0 budget=4] step  600/1300  eval_acc=0.052  eval_loss=2.778  (126s)
+[3/16 topkraw seed=0 budget=4] step  700/1300  eval_acc=0.055  eval_loss=2.785  (147s)
+[3/16 topkraw seed=0 budget=4] step  800/1300  eval_acc=0.055  eval_loss=2.781  (167s)
+[3/16 topkraw seed=0 budget=4] step  900/1300  eval_acc=0.059  eval_loss=2.777  (186s)
+[3/16 topkraw seed=0 budget=4] step 1000/1300  eval_acc=0.067  eval_loss=2.778  (206s)
+[3/16 topkraw seed=0 budget=4] step 1100/1300  eval_acc=0.071  eval_loss=2.774  (226s)
+[3/16 topkraw seed=0 budget=4] step 1200/1300  eval_acc=0.060  eval_loss=2.775  (246s)
+[3/16 topkraw seed=0 budget=4] step 1300/1300  eval_acc=0.067  eval_loss=2.774  (278s)
+=== 完成 [3/16 topkraw seed=0 budget=4]  final_acc=0.067 用时278s ===
+
+=== 开始 [4/16 cma seed=0 budget=4] ===
+[4/16 cma seed=0 budget=4] step  100/1300  eval_acc=0.085  eval_loss=2.840  (20s)
+[4/16 cma seed=0 budget=4] step  200/1300  eval_acc=0.067  eval_loss=2.803  (42s)
+[4/16 cma seed=0 budget=4] step  300/1300  eval_acc=0.062  eval_loss=2.785  (63s)
+[4/16 cma seed=0 budget=4] step  400/1300  eval_acc=0.060  eval_loss=2.788  (83s)
+[4/16 cma seed=0 budget=4] step  500/1300  eval_acc=0.061  eval_loss=2.791  (104s)
+[4/16 cma seed=0 budget=4] step  600/1300  eval_acc=0.058  eval_loss=2.778  (124s)
+[4/16 cma seed=0 budget=4] step  700/1300  eval_acc=0.062  eval_loss=2.785  (146s)
+[4/16 cma seed=0 budget=4] step  800/1300  eval_acc=0.055  eval_loss=2.781  (167s)
+[4/16 cma seed=0 budget=4] step  900/1300  eval_acc=0.059  eval_loss=2.777  (187s)
+[4/16 cma seed=0 budget=4] step 1000/1300  eval_acc=0.067  eval_loss=2.778  (208s)
+[4/16 cma seed=0 budget=4] step 1100/1300  eval_acc=0.071  eval_loss=2.774  (231s)
+[4/16 cma seed=0 budget=4] step 1200/1300  eval_acc=0.060  eval_loss=2.775  (251s)
+[4/16 cma seed=0 budget=4] step 1300/1300  eval_acc=0.067  eval_loss=2.774  (273s)
+=== 完成 [4/16 cma seed=0 budget=4]  final_acc=0.067 用时273s ===
+
+=== 开始 [5/16 nomemory seed=1 budget=None] ===
+[5/16 nomemory seed=1 budget=None] step  100/1300  eval_acc=0.064  eval_loss=2.792  (11s)
+[5/16 nomemory seed=1 budget=None] step  200/1300  eval_acc=0.050  eval_loss=2.820  (21s)
+[5/16 nomemory seed=1 budget=None] step  300/1300  eval_acc=0.050  eval_loss=2.802  (31s)
+[5/16 nomemory seed=1 budget=None] step  400/1300  eval_acc=0.060  eval_loss=2.786  (41s)
+[5/16 nomemory seed=1 budget=None] step  500/1300  eval_acc=0.054  eval_loss=2.788  (50s)
+[5/16 nomemory seed=1 budget=None] step  600/1300  eval_acc=0.069  eval_loss=2.801  (60s)
+[5/16 nomemory seed=1 budget=None] step  700/1300  eval_acc=0.052  eval_loss=2.783  (70s)
+[5/16 nomemory seed=1 budget=None] step  800/1300  eval_acc=0.055  eval_loss=2.780  (79s)
+[5/16 nomemory seed=1 budget=None] step  900/1300  eval_acc=0.069  eval_loss=2.774  (89s)
+[5/16 nomemory seed=1 budget=None] step 1000/1300  eval_acc=0.062  eval_loss=2.776  (99s)
+[5/16 nomemory seed=1 budget=None] step 1100/1300  eval_acc=0.060  eval_loss=2.778  (108s)
+[5/16 nomemory seed=1 budget=None] step 1200/1300  eval_acc=0.063  eval_loss=2.774  (118s)
+[5/16 nomemory seed=1 budget=None] step 1300/1300  eval_acc=0.057  eval_loss=2.775  (131s)
+=== 完成 [5/16 nomemory seed=1 budget=None]  final_acc=0.057 用时131s ===
+
+=== 开始 [6/16 fullattn seed=1 budget=None] ===
+[6/16 fullattn seed=1 budget=None] step  100/1300  eval_acc=0.064  eval_loss=2.792  (16s)
+[6/16 fullattn seed=1 budget=None] step  200/1300  eval_acc=0.111  eval_loss=2.717  (29s)
+[6/16 fullattn seed=1 budget=None] step  300/1300  eval_acc=0.149  eval_loss=2.606  (42s)
+[6/16 fullattn seed=1 budget=None] step  400/1300  eval_acc=0.198  eval_loss=2.528  (55s)
+[6/16 fullattn seed=1 budget=None] step  500/1300  eval_acc=0.234  eval_loss=2.456  (68s)
+[6/16 fullattn seed=1 budget=None] step  600/1300  eval_acc=0.261  eval_loss=2.397  (84s)
+[6/16 fullattn seed=1 budget=None] step  700/1300  eval_acc=0.279  eval_loss=2.347  (97s)
+[6/16 fullattn seed=1 budget=None] step  800/1300  eval_acc=0.263  eval_loss=2.294  (113s)
+[6/16 fullattn seed=1 budget=None] step  900/1300  eval_acc=0.272  eval_loss=2.274  (129s)
+[6/16 fullattn seed=1 budget=None] step 1000/1300  eval_acc=0.286  eval_loss=2.232  (144s)
+[6/16 fullattn seed=1 budget=None] step 1100/1300  eval_acc=0.285  eval_loss=2.254  (162s)
+[6/16 fullattn seed=1 budget=None] step 1200/1300  eval_acc=0.309  eval_loss=2.233  (179s)
+[6/16 fullattn seed=1 budget=None] step 1300/1300  eval_acc=0.309  eval_loss=2.213  (195s)
+=== 完成 [6/16 fullattn seed=1 budget=None]  final_acc=0.309 用时195s ===
+
+=== 开始 [7/16 topkraw seed=1 budget=4] ===
+[7/16 topkraw seed=1 budget=4] step  100/1300  eval_acc=0.068  eval_loss=2.785  (20s)
+[7/16 topkraw seed=1 budget=4] step  200/1300  eval_acc=0.088  eval_loss=2.773  (40s)
+[7/16 topkraw seed=1 budget=4] step  300/1300  eval_acc=0.104  eval_loss=2.706  (60s)
+[7/16 topkraw seed=1 budget=4] step  400/1300  eval_acc=0.096  eval_loss=2.739  (81s)
+[7/16 topkraw seed=1 budget=4] step  500/1300  eval_acc=0.096  eval_loss=2.697  (101s)
+[7/16 topkraw seed=1 budget=4] step  600/1300  eval_acc=0.070  eval_loss=2.801  (121s)
+[7/16 topkraw seed=1 budget=4] step  700/1300  eval_acc=0.053  eval_loss=2.782  (140s)
+[7/16 topkraw seed=1 budget=4] step  800/1300  eval_acc=0.060  eval_loss=2.779  (160s)
+[7/16 topkraw seed=1 budget=4] step  900/1300  eval_acc=0.077  eval_loss=2.766  (178s)
+[7/16 topkraw seed=1 budget=4] step 1000/1300  eval_acc=0.080  eval_loss=2.763  (205s)
+[7/16 topkraw seed=1 budget=4] step 1100/1300  eval_acc=0.076  eval_loss=2.760  (225s)
+[7/16 topkraw seed=1 budget=4] step 1200/1300  eval_acc=0.069  eval_loss=2.760  (244s)
+[7/16 topkraw seed=1 budget=4] step 1300/1300  eval_acc=0.085  eval_loss=2.751  (262s)
+=== 完成 [7/16 topkraw seed=1 budget=4]  final_acc=0.085 用时262s ===
+
+=== 开始 [8/16 cma seed=1 budget=4] ===
+[8/16 cma seed=1 budget=4] step  100/1300  eval_acc=0.065  eval_loss=2.781  (20s)
+[8/16 cma seed=1 budget=4] step  200/1300  eval_acc=0.086  eval_loss=2.786  (41s)
+[8/16 cma seed=1 budget=4] step  300/1300  eval_acc=0.098  eval_loss=2.735  (61s)
+[8/16 cma seed=1 budget=4] step  400/1300  eval_acc=0.120  eval_loss=2.685  (81s)
+[8/16 cma seed=1 budget=4] step  500/1300  eval_acc=0.059  eval_loss=2.777  (102s)
+[8/16 cma seed=1 budget=4] step  600/1300  eval_acc=0.071  eval_loss=2.798  (124s)
+[8/16 cma seed=1 budget=4] step  700/1300  eval_acc=0.065  eval_loss=2.772  (145s)
+[8/16 cma seed=1 budget=4] step  800/1300  eval_acc=0.082  eval_loss=2.751  (165s)
+[8/16 cma seed=1 budget=4] step  900/1300  eval_acc=0.082  eval_loss=2.760  (185s)
+[8/16 cma seed=1 budget=4] step 1000/1300  eval_acc=0.077  eval_loss=2.758  (206s)
+[8/16 cma seed=1 budget=4] step 1100/1300  eval_acc=0.077  eval_loss=2.756  (226s)
+[8/16 cma seed=1 budget=4] step 1200/1300  eval_acc=0.083  eval_loss=2.756  (247s)
+[8/16 cma seed=1 budget=4] step 1300/1300  eval_acc=0.070  eval_loss=2.759  (269s)
+=== 完成 [8/16 cma seed=1 budget=4]  final_acc=0.070 用时269s ===
+
+=== 开始 [9/16 nomemory seed=2 budget=None] ===
+[9/16 nomemory seed=2 budget=None] step  100/1300  eval_acc=0.060  eval_loss=2.808  (10s)
+[9/16 nomemory seed=2 budget=None] step  200/1300  eval_acc=0.071  eval_loss=2.794  (19s)
+[9/16 nomemory seed=2 budget=None] step  300/1300  eval_acc=0.066  eval_loss=2.799  (28s)
+[9/16 nomemory seed=2 budget=None] step  400/1300  eval_acc=0.061  eval_loss=2.799  (38s)
+[9/16 nomemory seed=2 budget=None] step  500/1300  eval_acc=0.067  eval_loss=2.792  (48s)
+[9/16 nomemory seed=2 budget=None] step  600/1300  eval_acc=0.066  eval_loss=2.783  (57s)
+[9/16 nomemory seed=2 budget=None] step  700/1300  eval_acc=0.065  eval_loss=2.778  (65s)
+[9/16 nomemory seed=2 budget=None] step  800/1300  eval_acc=0.060  eval_loss=2.787  (75s)
+[9/16 nomemory seed=2 budget=None] step  900/1300  eval_acc=0.064  eval_loss=2.778  (85s)
+[9/16 nomemory seed=2 budget=None] step 1000/1300  eval_acc=0.067  eval_loss=2.775  (94s)
+[9/16 nomemory seed=2 budget=None] step 1100/1300  eval_acc=0.066  eval_loss=2.772  (105s)
+[9/16 nomemory seed=2 budget=None] step 1200/1300  eval_acc=0.064  eval_loss=2.775  (115s)
+[9/16 nomemory seed=2 budget=None] step 1300/1300  eval_acc=0.076  eval_loss=2.773  (123s)
+=== 完成 [9/16 nomemory seed=2 budget=None]  final_acc=0.076 用时123s ===
+
+=== 开始 [10/16 fullattn seed=2 budget=None] ===
+[10/16 fullattn seed=2 budget=None] step  100/1300  eval_acc=0.058  eval_loss=2.808  (13s)
+[10/16 fullattn seed=2 budget=None] step  200/1300  eval_acc=0.071  eval_loss=2.794  (26s)
+[10/16 fullattn seed=2 budget=None] step  300/1300  eval_acc=0.066  eval_loss=2.798  (37s)
+[10/16 fullattn seed=2 budget=None] step  400/1300  eval_acc=0.255  eval_loss=2.453  (49s)
+[10/16 fullattn seed=2 budget=None] step  500/1300  eval_acc=0.283  eval_loss=2.154  (63s)
+[10/16 fullattn seed=2 budget=None] step  600/1300  eval_acc=0.317  eval_loss=2.087  (75s)
+[10/16 fullattn seed=2 budget=None] step  700/1300  eval_acc=0.340  eval_loss=2.008  (88s)
+[10/16 fullattn seed=2 budget=None] step  800/1300  eval_acc=0.346  eval_loss=1.968  (101s)
+[10/16 fullattn seed=2 budget=None] step  900/1300  eval_acc=0.353  eval_loss=1.958  (114s)
+[10/16 fullattn seed=2 budget=None] step 1000/1300  eval_acc=0.370  eval_loss=1.862  (127s)
+[10/16 fullattn seed=2 budget=None] step 1100/1300  eval_acc=0.380  eval_loss=1.830  (139s)
+[10/16 fullattn seed=2 budget=None] step 1200/1300  eval_acc=0.394  eval_loss=1.819  (151s)
+[10/16 fullattn seed=2 budget=None] step 1300/1300  eval_acc=0.386  eval_loss=1.839  (163s)
+=== 完成 [10/16 fullattn seed=2 budget=None]  final_acc=0.386 用时163s ===
+
+=== 开始 [11/16 topkraw seed=2 budget=4] ===
+[11/16 topkraw seed=2 budget=4] step  100/1300  eval_acc=0.077  eval_loss=2.818  (20s)
+[11/16 topkraw seed=2 budget=4] step  200/1300  eval_acc=0.071  eval_loss=2.793  (39s)
+[11/16 topkraw seed=2 budget=4] step  300/1300  eval_acc=0.066  eval_loss=2.803  (57s)
+[11/16 topkraw seed=2 budget=4] step  400/1300  eval_acc=0.065  eval_loss=2.798  (75s)
+[11/16 topkraw seed=2 budget=4] step  500/1300  eval_acc=0.067  eval_loss=2.793  (93s)
+[11/16 topkraw seed=2 budget=4] step  600/1300  eval_acc=0.066  eval_loss=2.782  (113s)
+[11/16 topkraw seed=2 budget=4] step  700/1300  eval_acc=0.059  eval_loss=2.778  (132s)
+[11/16 topkraw seed=2 budget=4] step  800/1300  eval_acc=0.062  eval_loss=2.787  (152s)
+[11/16 topkraw seed=2 budget=4] step  900/1300  eval_acc=0.064  eval_loss=2.780  (171s)
+[11/16 topkraw seed=2 budget=4] step 1000/1300  eval_acc=0.067  eval_loss=2.776  (190s)
+[11/16 topkraw seed=2 budget=4] step 1100/1300  eval_acc=0.066  eval_loss=2.773  (216s)
+[11/16 topkraw seed=2 budget=4] step 1200/1300  eval_acc=0.062  eval_loss=2.775  (235s)
+[11/16 topkraw seed=2 budget=4] step 1300/1300  eval_acc=0.078  eval_loss=2.773  (254s)
+=== 完成 [11/16 topkraw seed=2 budget=4]  final_acc=0.078 用时254s ===
+
+=== 开始 [12/16 cma seed=2 budget=4] ===
+[12/16 cma seed=2 budget=4] step  100/1300  eval_acc=0.081  eval_loss=2.819  (20s)
+[12/16 cma seed=2 budget=4] step  200/1300  eval_acc=0.071  eval_loss=2.793  (39s)
+[12/16 cma seed=2 budget=4] step  300/1300  eval_acc=0.066  eval_loss=2.802  (59s)
+[12/16 cma seed=2 budget=4] step  400/1300  eval_acc=0.065  eval_loss=2.798  (79s)
+[12/16 cma seed=2 budget=4] step  500/1300  eval_acc=0.067  eval_loss=2.793  (99s)
+[12/16 cma seed=2 budget=4] step  600/1300  eval_acc=0.066  eval_loss=2.782  (118s)
+[12/16 cma seed=2 budget=4] step  700/1300  eval_acc=0.064  eval_loss=2.778  (137s)
+[12/16 cma seed=2 budget=4] step  800/1300  eval_acc=0.062  eval_loss=2.787  (158s)
+[12/16 cma seed=2 budget=4] step  900/1300  eval_acc=0.064  eval_loss=2.780  (178s)
+[12/16 cma seed=2 budget=4] step 1000/1300  eval_acc=0.067  eval_loss=2.776  (199s)
+[12/16 cma seed=2 budget=4] step 1100/1300  eval_acc=0.066  eval_loss=2.773  (221s)
+[12/16 cma seed=2 budget=4] step 1200/1300  eval_acc=0.064  eval_loss=2.775  (241s)
+[12/16 cma seed=2 budget=4] step 1300/1300  eval_acc=0.077  eval_loss=2.773  (261s)
+=== 完成 [12/16 cma seed=2 budget=4]  final_acc=0.077 用时261s ===
+
+=== 开始 [13/16 topkraw seed=0 budget=8] ===
+[13/16 topkraw seed=0 budget=8] step  100/1300  eval_acc=0.085  eval_loss=2.842  (19s)
+[13/16 topkraw seed=0 budget=8] step  200/1300  eval_acc=0.067  eval_loss=2.803  (38s)
+[13/16 topkraw seed=0 budget=8] step  300/1300  eval_acc=0.062  eval_loss=2.786  (57s)
+[13/16 topkraw seed=0 budget=8] step  400/1300  eval_acc=0.060  eval_loss=2.788  (78s)
+[13/16 topkraw seed=0 budget=8] step  500/1300  eval_acc=0.061  eval_loss=2.791  (98s)
+[13/16 topkraw seed=0 budget=8] step  600/1300  eval_acc=0.055  eval_loss=2.778  (120s)
+[13/16 topkraw seed=0 budget=8] step  700/1300  eval_acc=0.064  eval_loss=2.785  (140s)
+[13/16 topkraw seed=0 budget=8] step  800/1300  eval_acc=0.055  eval_loss=2.781  (160s)
+[13/16 topkraw seed=0 budget=8] step  900/1300  eval_acc=0.059  eval_loss=2.777  (179s)
+[13/16 topkraw seed=0 budget=8] step 1000/1300  eval_acc=0.067  eval_loss=2.778  (199s)
+[13/16 topkraw seed=0 budget=8] step 1100/1300  eval_acc=0.071  eval_loss=2.774  (218s)
+[13/16 topkraw seed=0 budget=8] step 1200/1300  eval_acc=0.060  eval_loss=2.775  (237s)
+[13/16 topkraw seed=0 budget=8] step 1300/1300  eval_acc=0.067  eval_loss=2.774  (258s)
+=== 完成 [13/16 topkraw seed=0 budget=8]  final_acc=0.067 用时258s ===
+
+=== 开始 [14/16 cma seed=0 budget=8] ===
+[14/16 cma seed=0 budget=8] step  100/1300  eval_acc=0.085  eval_loss=2.840  (23s)
+[14/16 cma seed=0 budget=8] step  200/1300  eval_acc=0.067  eval_loss=2.803  (45s)
+[14/16 cma seed=0 budget=8] step  300/1300  eval_acc=0.062  eval_loss=2.786  (65s)
+[14/16 cma seed=0 budget=8] step  400/1300  eval_acc=0.060  eval_loss=2.788  (85s)
+[14/16 cma seed=0 budget=8] step  500/1300  eval_acc=0.061  eval_loss=2.791  (105s)
+[14/16 cma seed=0 budget=8] step  600/1300  eval_acc=0.058  eval_loss=2.778  (126s)
+[14/16 cma seed=0 budget=8] step  700/1300  eval_acc=0.065  eval_loss=2.785  (148s)
+[14/16 cma seed=0 budget=8] step  800/1300  eval_acc=0.055  eval_loss=2.781  (174s)
+[14/16 cma seed=0 budget=8] step  900/1300  eval_acc=0.059  eval_loss=2.777  (196s)
+[14/16 cma seed=0 budget=8] step 1000/1300  eval_acc=0.067  eval_loss=2.778  (216s)
+[14/16 cma seed=0 budget=8] step 1100/1300  eval_acc=0.071  eval_loss=2.774  (237s)
+[14/16 cma seed=0 budget=8] step 1200/1300  eval_acc=0.060  eval_loss=2.775  (257s)
+[14/16 cma seed=0 budget=8] step 1300/1300  eval_acc=0.067  eval_loss=2.774  (277s)
+=== 完成 [14/16 cma seed=0 budget=8]  final_acc=0.067 用时277s ===
+
+=== 开始 [15/16 topkraw seed=0 budget=16] ===
+[15/16 topkraw seed=0 budget=16] step  100/1300  eval_acc=0.085  eval_loss=2.842  (22s)
+[15/16 topkraw seed=0 budget=16] step  200/1300  eval_acc=0.065  eval_loss=2.803  (42s)
+[15/16 topkraw seed=0 budget=16] step  300/1300  eval_acc=0.062  eval_loss=2.787  (61s)
+[15/16 topkraw seed=0 budget=16] step  400/1300  eval_acc=0.060  eval_loss=2.788  (80s)
+[15/16 topkraw seed=0 budget=16] step  500/1300  eval_acc=0.061  eval_loss=2.791  (99s)
+[15/16 topkraw seed=0 budget=16] step  600/1300  eval_acc=0.055  eval_loss=2.778  (119s)
+[15/16 topkraw seed=0 budget=16] step  700/1300  eval_acc=0.056  eval_loss=2.786  (138s)
+[15/16 topkraw seed=0 budget=16] step  800/1300  eval_acc=0.055  eval_loss=2.781  (159s)
+[15/16 topkraw seed=0 budget=16] step  900/1300  eval_acc=0.059  eval_loss=2.777  (177s)
+[15/16 topkraw seed=0 budget=16] step 1000/1300  eval_acc=0.067  eval_loss=2.778  (196s)
+[15/16 topkraw seed=0 budget=16] step 1100/1300  eval_acc=0.071  eval_loss=2.774  (215s)
+[15/16 topkraw seed=0 budget=16] step 1200/1300  eval_acc=0.060  eval_loss=2.775  (234s)
+[15/16 topkraw seed=0 budget=16] step 1300/1300  eval_acc=0.067  eval_loss=2.774  (253s)
+=== 完成 [15/16 topkraw seed=0 budget=16]  final_acc=0.067 用时253s ===
+
+=== 开始 [16/16 cma seed=0 budget=16] ===
+[16/16 cma seed=0 budget=16] step  100/1300  eval_acc=0.085  eval_loss=2.840  (19s)
+[16/16 cma seed=0 budget=16] step  200/1300  eval_acc=0.068  eval_loss=2.803  (40s)
+[16/16 cma seed=0 budget=16] step  300/1300  eval_acc=0.062  eval_loss=2.786  (61s)
+[16/16 cma seed=0 budget=16] step  400/1300  eval_acc=0.060  eval_loss=2.788  (81s)
+[16/16 cma seed=0 budget=16] step  500/1300  eval_acc=0.061  eval_loss=2.791  (101s)
+[16/16 cma seed=0 budget=16] step  600/1300  eval_acc=0.053  eval_loss=2.778  (121s)
+[16/16 cma seed=0 budget=16] step  700/1300  eval_acc=0.062  eval_loss=2.785  (142s)
+[16/16 cma seed=0 budget=16] step  800/1300  eval_acc=0.055  eval_loss=2.781  (162s)
+[16/16 cma seed=0 budget=16] step  900/1300  eval_acc=0.059  eval_loss=2.777  (182s)
+[16/16 cma seed=0 budget=16] step 1000/1300  eval_acc=0.067  eval_loss=2.778  (203s)
+[16/16 cma seed=0 budget=16] step 1100/1300  eval_acc=0.071  eval_loss=2.774  (223s)
+[16/16 cma seed=0 budget=16] step 1200/1300  eval_acc=0.060  eval_loss=2.775  (243s)
+[16/16 cma seed=0 budget=16] step 1300/1300  eval_acc=0.067  eval_loss=2.774  (264s)
+=== 完成 [16/16 cma seed=0 budget=16]  final_acc=0.067 用时264s ===
+
+全部实验完成。

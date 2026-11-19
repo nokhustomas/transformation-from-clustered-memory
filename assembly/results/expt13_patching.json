@@ -1,0 +1,37 @@
+{
+ "n_rare": 689,
+ "base_rare": 3.1597654819488525,
+ "base_freq": 3.102290153503418,
+ "arms": {
+  "patch_ffn_L1": {
+   "rare_delta": -0.07834459841251373,
+   "rare_se": 0.015275774523615837,
+   "freq_delta": 0.0,
+   "freq_se": 0.0
+  },
+  "patch_resid_L1": {
+   "rare_delta": -0.08009985089302063,
+   "rare_se": 0.016593972221016884,
+   "freq_delta": 0.0,
+   "freq_se": 0.0
+  },
+  "patch_typical_ffn_L1": {
+   "rare_delta": -0.006664025131613016,
+   "rare_se": 0.00926682073622942,
+   "freq_delta": 0.0,
+   "freq_se": 0.0
+  },
+  "add_ffn_L1": {
+   "rare_delta": -0.004305295646190643,
+   "rare_se": 0.0019849047530442476,
+   "freq_delta": 0.0,
+   "freq_se": 0.0
+  },
+  "oracle_embedding": {
+   "rare_delta": -0.08009985089302063,
+   "rare_se": 0.016593972221016884,
+   "freq_delta": 2.2718626979667533e-08,
+   "freq_se": 1.6002431380002236e-07
+  }
+ }
+}

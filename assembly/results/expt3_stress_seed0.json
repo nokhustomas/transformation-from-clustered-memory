@@ -1,0 +1,325 @@
+{
+ "A_corruption": {
+  "0.3": {
+   "hook_stats": {
+    "clean_off": {
+     "hit_rate": 0.0,
+     "mean_injected_units_per_hit": 0.0,
+     "mean_rho": 0.0
+    },
+    "corrupt_off": {
+     "hit_rate": 0.0,
+     "mean_injected_units_per_hit": 0.0,
+     "mean_rho": 0.0
+    },
+    "corrupt_on": {
+     "hit_rate": 0.9651416015625,
+     "mean_injected_units_per_hit": 5.081776374702142,
+     "mean_rho": 0.6254545530585668
+    },
+    "corrupt_placebo": {
+     "hit_rate": 0.9651416015625,
+     "mean_injected_units_per_hit": 10.842573901781332,
+     "mean_rho": 0.6254545530585668
+    }
+   },
+   "buckets": {
+    "frequent(rank0-1)": {
+     "n_positions": 120983,
+     "loss_clean_off": 3.135366201400757,
+     "loss_corrupt_off": 3.137256145477295,
+     "delta_corrupt_off": 0.0018899806309491396,
+     "delta_corrupt_off_se": 0.00017129082698374987,
+     "loss_corrupt_on": 3.1358156204223633,
+     "delta_corrupt_on": 0.0004498698690440506,
+     "delta_corrupt_on_se": 8.040029206313193e-05,
+     "loss_corrupt_placebo": 3.1913869380950928,
+     "delta_corrupt_placebo": 0.056020598858594894,
+     "delta_corrupt_placebo_se": 0.0008905660943128169
+    },
+    "mid(rank2-5)": {
+     "n_positions": 80326,
+     "loss_clean_off": 3.1351780891418457,
+     "loss_corrupt_off": 3.1369271278381348,
+     "delta_corrupt_off": 0.001749196439050138,
+     "delta_corrupt_off_se": 0.00020971584308426827,
+     "loss_corrupt_on": 3.1354966163635254,
+     "delta_corrupt_on": 0.00031850134837441146,
+     "delta_corrupt_on_se": 0.00010374859994044527,
+     "loss_corrupt_placebo": 3.1907098293304443,
+     "delta_corrupt_placebo": 0.05553174018859863,
+     "delta_corrupt_placebo_se": 0.0010718036210164428
+    },
+    "rare(rank6-7)": {
+     "n_positions": 291,
+     "loss_clean_off": 3.2095890045166016,
+     "loss_corrupt_off": 3.2138378620147705,
+     "delta_corrupt_off": 0.004248964600265026,
+     "delta_corrupt_off_se": 0.0032418782357126474,
+     "loss_corrupt_on": 3.21199631690979,
+     "delta_corrupt_on": 0.0024074288085103035,
+     "delta_corrupt_on_se": 0.0024895090609788895,
+     "loss_corrupt_placebo": 3.2334580421447754,
+     "delta_corrupt_placebo": 0.023868944495916367,
+     "delta_corrupt_placebo_se": 0.018945958465337753
+    },
+    "all": {
+     "n_positions": 201600,
+     "loss_clean_off": 3.1353981494903564,
+     "loss_corrupt_off": 3.137235164642334,
+     "delta_corrupt_off": 0.0018372912891209126,
+     "delta_corrupt_off_se": 0.00013255426893010736,
+     "loss_corrupt_on": 3.135798692703247,
+     "delta_corrupt_on": 0.0004003526992164552,
+     "delta_corrupt_on_se": 6.363736611092463e-05,
+     "loss_corrupt_placebo": 3.1911773681640625,
+     "delta_corrupt_placebo": 0.055779408663511276,
+     "delta_corrupt_placebo_se": 0.0006846542819403112
+    }
+   }
+  },
+  "0.5": {
+   "hook_stats": {
+    "clean_off": {
+     "hit_rate": 0.0,
+     "mean_injected_units_per_hit": 0.0,
+     "mean_rho": 0.0
+    },
+    "corrupt_off": {
+     "hit_rate": 0.0,
+     "mean_injected_units_per_hit": 0.0,
+     "mean_rho": 0.0
+    },
+    "corrupt_on": {
+     "hit_rate": 0.78302734375,
+     "mean_injected_units_per_hit": 7.762527749370183,
+     "mean_rho": 0.4791493266088691
+    },
+    "corrupt_placebo": {
+     "hit_rate": 0.78302734375,
+     "mean_injected_units_per_hit": 11.002032875208899,
+     "mean_rho": 0.4791493266088691
+    }
+   },
+   "buckets": {
+    "frequent(rank0-1)": {
+     "n_positions": 120983,
+     "loss_clean_off": 3.135366201400757,
+     "loss_corrupt_off": 3.1387674808502197,
+     "delta_corrupt_off": 0.003401555586606264,
+     "delta_corrupt_off_se": 0.0002344643435208127,
+     "loss_corrupt_on": 3.1369102001190186,
+     "delta_corrupt_on": 0.0015441554132848978,
+     "delta_corrupt_on_se": 0.00016058924666140229,
+     "loss_corrupt_placebo": 3.171931743621826,
+     "delta_corrupt_placebo": 0.03656541556119919,
+     "delta_corrupt_placebo_se": 0.0007354269619099796
+    },
+    "mid(rank2-5)": {
+     "n_positions": 80326,
+     "loss_clean_off": 3.1351780891418457,
+     "loss_corrupt_off": 3.138455629348755,
+     "delta_corrupt_off": 0.0032777481246739626,
+     "delta_corrupt_off_se": 0.0002873392077162862,
+     "loss_corrupt_on": 3.1367008686065674,
+     "delta_corrupt_on": 0.001522537786513567,
+     "delta_corrupt_on_se": 0.00019595872436184436,
+     "loss_corrupt_placebo": 3.174241304397583,
+     "delta_corrupt_placebo": 0.03906337544322014,
+     "delta_corrupt_placebo_se": 0.000910422473680228
+    },
+    "rare(rank6-7)": {
+     "n_positions": 291,
+     "loss_clean_off": 3.2095890045166016,
+     "loss_corrupt_off": 3.2130792140960693,
+     "delta_corrupt_off": 0.0034900298342108727,
+     "delta_corrupt_off_se": 0.004940073471516371,
+     "loss_corrupt_on": 3.2117109298706055,
+     "delta_corrupt_on": 0.002122047822922468,
+     "delta_corrupt_on_se": 0.003996249753981829,
+     "loss_corrupt_placebo": 3.2272584438323975,
+     "delta_corrupt_placebo": 0.017669418826699257,
+     "delta_corrupt_placebo_se": 0.016695111989974976
+    },
+    "all": {
+     "n_positions": 201600,
+     "loss_clean_off": 3.1353981494903564,
+     "loss_corrupt_off": 3.1387505531311035,
+     "delta_corrupt_off": 0.0033523535821586847,
+     "delta_corrupt_off_se": 0.0001815380237530917,
+     "loss_corrupt_on": 3.136934518814087,
+     "delta_corrupt_on": 0.0015363763086497784,
+     "delta_corrupt_on_se": 0.00012416458048392087,
+     "loss_corrupt_placebo": 3.172931432723999,
+     "delta_corrupt_placebo": 0.03753343224525452,
+     "delta_corrupt_placebo_se": 0.0005718012107536197
+    }
+   }
+  },
+  "0.7": {
+   "hook_stats": {
+    "clean_off": {
+     "hit_rate": 0.0,
+     "mean_injected_units_per_hit": 0.0,
+     "mean_rho": 0.0
+    },
+    "corrupt_off": {
+     "hit_rate": 0.0,
+     "mean_injected_units_per_hit": 0.0,
+     "mean_rho": 0.0
+    },
+    "corrupt_on": {
+     "hit_rate": 0.318466796875,
+     "mean_injected_units_per_hit": 9.599843611051485,
+     "mean_rho": 0.38604016669711655
+    },
+    "corrupt_placebo": {
+     "hit_rate": 0.318466796875,
+     "mean_injected_units_per_hit": 10.927739106436478,
+     "mean_rho": 0.38604016669711655
+    }
+   },
+   "buckets": {
+    "frequent(rank0-1)": {
+     "n_positions": 120983,
+     "loss_clean_off": 3.135366201400757,
+     "loss_corrupt_off": 3.140382766723633,
+     "delta_corrupt_off": 0.0050168754532933235,
+     "delta_corrupt_off_se": 0.0002973235968966037,
+     "loss_corrupt_on": 3.13956356048584,
+     "delta_corrupt_on": 0.0041975281201303005,
+     "delta_corrupt_on_se": 0.0002732399443630129,
+     "loss_corrupt_placebo": 3.1509640216827393,
+     "delta_corrupt_placebo": 0.015598034486174583,
+     "delta_corrupt_placebo_se": 0.000489288941025734
+    },
+    "mid(rank2-5)": {
+     "n_positions": 80326,
+     "loss_clean_off": 3.1351780891418457,
+     "loss_corrupt_off": 3.140472888946533,
+     "delta_corrupt_off": 0.005294640548527241,
+     "delta_corrupt_off_se": 0.00036189091042615473,
+     "loss_corrupt_on": 3.1396260261535645,
+     "delta_corrupt_on": 0.0044477819465100765,
+     "delta_corrupt_on_se": 0.00033074451494030654,
+     "loss_corrupt_placebo": 3.152879476547241,
+     "delta_corrupt_placebo": 0.01770152896642685,
+     "delta_corrupt_placebo_se": 0.0006263024406507611
+    },
+    "rare(rank6-7)": {
+     "n_positions": 291,
+     "loss_clean_off": 3.2095890045166016,
+     "loss_corrupt_off": 3.2166037559509277,
+     "delta_corrupt_off": 0.007014963775873184,
+     "delta_corrupt_off_se": 0.006273119710385799,
+     "loss_corrupt_on": 3.2167575359344482,
+     "delta_corrupt_on": 0.007168432231992483,
+     "delta_corrupt_on_se": 0.005841867998242378,
+     "loss_corrupt_placebo": 3.2268290519714355,
+     "delta_corrupt_placebo": 0.01724005490541458,
+     "delta_corrupt_placebo_se": 0.014455530792474747
+    },
+    "all": {
+     "n_positions": 201600,
+     "loss_clean_off": 3.1353981494903564,
+     "loss_corrupt_off": 3.140528678894043,
+     "delta_corrupt_off": 0.005130433477461338,
+     "delta_corrupt_off_se": 0.00022958588670007885,
+     "loss_corrupt_on": 3.139699935913086,
+     "delta_corrupt_on": 0.004301527515053749,
+     "delta_corrupt_on_se": 0.0002105357125401497,
+     "loss_corrupt_placebo": 3.151836633682251,
+     "delta_corrupt_placebo": 0.016438525170087814,
+     "delta_corrupt_placebo_se": 0.0003859137650579214
+    }
+   }
+  }
+ },
+ "B_extreme_rare": {
+  "hook_stats": {
+   "clean_off": {
+    "hit_rate": 0.0,
+    "mean_injected_units_per_hit": 0.0,
+    "mean_rho": 0.0
+   },
+   "on": {
+    "hit_rate": 0.9999967447916667,
+    "mean_injected_units_per_hit": 0.5636199987630168,
+    "mean_rho": 0.9172530417191656
+   },
+   "placebo": {
+    "hit_rate": 0.9999967447916667,
+    "mean_injected_units_per_hit": 14.445479965755096,
+    "mean_rho": 0.9172530417191656
+   }
+  },
+  "buckets": {
+   "frequent(rank0-1)": {
+    "n_positions": 375482,
+    "loss_clean_off": 3.0984561443328857,
+    "loss_on": 3.0984833240509033,
+    "delta_on": 2.718753785302397e-05,
+    "delta_on_se": 1.6480102203786373e-05,
+    "loss_placebo": 3.193250894546509,
+    "delta_placebo": 0.09479466080665588,
+    "delta_placebo_se": 0.0006451793015003204
+   },
+   "mid(rank2-5)": {
+    "n_positions": 229188,
+    "loss_clean_off": 3.0960965156555176,
+    "loss_on": 3.0960259437561035,
+    "delta_on": -7.079027272993699e-05,
+    "delta_on_se": 3.163906148984097e-05,
+    "loss_placebo": 3.1822669506073,
+    "delta_placebo": 0.08617040514945984,
+    "delta_placebo_se": 0.0007936594192869961
+   },
+   "rare(rank6-7)": {
+    "n_positions": 130,
+    "loss_clean_off": 3.224641799926758,
+    "loss_on": 3.2263669967651367,
+    "delta_on": 0.0017253527184948325,
+    "delta_on_se": 0.003264327999204397,
+    "loss_placebo": 3.302785634994507,
+    "delta_placebo": 0.07814403623342514,
+    "delta_placebo_se": 0.023565204814076424
+   },
+   "all": {
+    "n_positions": 604800,
+    "loss_clean_off": 3.0975890159606934,
+    "loss_on": 3.0975794792175293,
+    "delta_on": -9.575983312970493e-06,
+    "delta_on_se": 1.5777366570546292e-05,
+    "loss_placebo": 3.1891119480133057,
+    "delta_placebo": 0.0915229395031929,
+    "delta_placebo_se": 0.0005009483429603279
+   }
+  }
+ },
+ "B_diag_by_rank": {
+  "frequent": {
+   "n": 10103,
+   "hit_rate": 1.0,
+   "mean_rho": 0.9355442523956299,
+   "mean_missing_when_hit": 0.3679105341434479
+  },
+  "mid": {
+   "n": 6276,
+   "hit_rate": 1.0,
+   "mean_rho": 0.888383686542511,
+   "mean_missing_when_hit": 0.8656787872314453
+  },
+  "rank6(~77次)": {
+   "n": 4,
+   "hit_rate": 1.0,
+   "mean_rho": 0.6441933512687683,
+   "mean_missing_when_hit": 3.25
+  },
+  "rank7(~11次)": {
+   "n": 1,
+   "hit_rate": 1.0,
+   "mean_rho": 0.5652173757553101,
+   "mean_missing_when_hit": 7.0
+  }
+ }
+}

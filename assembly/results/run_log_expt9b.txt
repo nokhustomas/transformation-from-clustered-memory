@@ -1,0 +1,30 @@
+v2: 64动作 x 4修饰 = 256组合; 模型 dim=32 参数量=33856
+
+== k=8: 训练组合 88 个, 没见过 168 个 ==
+/home/claude/work/cluster_memory_transformer/assembly/run_expt9b_scaled.py:140: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:822.)
+  print(f"{log_prefix} step {step}/{steps} loss={float(loss):.4f} ({time.time()-t0:.0f}s)", flush=True)
+[k=8] step 1000/4000 loss=0.0014 (23s)
+[k=8] step 2000/4000 loss=0.0004 (45s)
+[k=8] step 3000/4000 loss=0.0003 (69s)
+[k=8] step 4000/4000 loss=0.0003 (94s)
+k=8: 见过 1.000 | 没见过 0.024 (168项, 刻度0.6%)
+  按修饰词分: 做2遍=0.04 做3遍=0.04 做4遍=0.00
+
+== k=16: 训练组合 112 个, 没见过 144 个 ==
+[k=16] step 1000/4000 loss=0.0014 (27s)
+[k=16] step 2000/4000 loss=0.0005 (52s)
+[k=16] step 3000/4000 loss=0.0003 (76s)
+[k=16] step 4000/4000 loss=0.0003 (101s)
+k=16: 见过 1.000 | 没见过 0.396 (144项, 刻度0.7%)
+  按修饰词分: 做2遍=0.48 做3遍=0.44 做4遍=0.27
+
+== k=32: 训练组合 160 个, 没见过 96 个 ==
+[k=32] step 1000/4000 loss=0.0018 (31s)
+[k=32] step 2000/4000 loss=0.0005 (61s)
+[k=32] step 3000/4000 loss=0.0003 (91s)
+[k=32] step 4000/4000 loss=0.0003 (120s)
+k=32: 见过 1.000 | 没见过 0.885 (96项, 刻度1.0%)
+  按修饰词分: 做2遍=0.94 做3遍=0.84 做4遍=0.88
+
+landscape 完成。

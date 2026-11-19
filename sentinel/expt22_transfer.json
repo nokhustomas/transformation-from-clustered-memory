@@ -1,0 +1,65 @@
+{
+ "fit": {
+  "fault": "drop0.3",
+  "domain": "in",
+  "n_docs": 60
+ },
+ "transfer": {
+  "损伤_砍30%(拟合时的损伤)": {
+   "healthy": 2.8928322792053223,
+   "damaged": 2.9395556449890137,
+   "harm": 0.046723365783691406,
+   "transform_recovery": 0.8306900985855122,
+   "patch_recovery": 1.0
+  },
+  "损伤_砍10%": {
+   "healthy": 2.8928322792053223,
+   "damaged": 2.907197952270508,
+   "harm": 0.014365673065185547,
+   "transform_recovery": 0.6822285657383742,
+   "patch_recovery": 1.0
+  },
+  "损伤_卡死30%": {
+   "healthy": 2.8928322792053223,
+   "damaged": 2.9882972240448,
+   "harm": 0.09546494483947754,
+   "transform_recovery": 0.32756256727496136,
+   "patch_recovery": 1.0
+  },
+  "损伤_量化4级": {
+   "healthy": 2.8928322792053223,
+   "damaged": 3.6202926635742188,
+   "harm": 0.7274603843688965,
+   "transform_recovery": 0.20755180765537382,
+   "patch_recovery": 1.0
+  },
+  "损伤_高斯噪声0.5x": {
+   "healthy": 2.8928322792053223,
+   "damaged": 2.9425625801086426,
+   "harm": 0.04973030090332031,
+   "transform_recovery": -0.10188221531852874,
+   "patch_recovery": 1.0
+  },
+  "领域_in": {
+   "healthy": 2.7962865829467773,
+   "damaged": 2.841049909591675,
+   "harm": 0.04476332664489746,
+   "transform_recovery": 0.8253644454623411,
+   "patch_recovery": 1.0
+  },
+  "领域_near": {
+   "healthy": 3.5202534198760986,
+   "damaged": 3.5499236583709717,
+   "harm": 0.029670238494873047,
+   "transform_recovery": 0.7702618002989249,
+   "patch_recovery": 1.0
+  },
+  "领域_far": {
+   "healthy": 4.498570919036865,
+   "damaged": 4.521170139312744,
+   "harm": 0.022599220275878906,
+   "transform_recovery": -0.09393594125838714,
+   "patch_recovery": 1.0
+  }
+ }
+}

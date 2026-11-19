@@ -1,0 +1,35 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 6130.96it/s]
+混合拟合数据采集(5损伤 × 3领域)…
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (551804 > 1024). Running this sequence through the model will result in indexing errors
+  in × 砍30%: 累计 24576 行 (53s)
+  in × 砍10%: 累计 49152 行 (101s)
+  in × 卡死30%: 累计 73728 行 (153s)
+  in × 量化4级: 累计 98304 行 (200s)
+  in × 噪声0.5x: 累计 122880 行 (248s)
+  near × 砍30%: 累计 147456 行 (299s)
+  near × 砍10%: 累计 172032 行 (346s)
+  near × 卡死30%: 累计 196608 行 (393s)
+  near × 量化4级: 累计 221184 行 (438s)
+  near × 噪声0.5x: 累计 245760 行 (486s)
+  far × 砍30%: 累计 270336 行 (535s)
+  far × 砍10%: 累计 294912 行 (583s)
+  far × 卡死30%: 累计 319488 行 (630s)
+  far × 量化4级: 累计 344064 行 (678s)
+  far × 噪声0.5x: 累计 368640 行 (725s)
+混合 A 拟合完成 (725s)
+
+=== 混合A 逐条件评测(同领域 in, 跨损伤) ===
+[transformers] `loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+  砍30%       伤害=+0.0467 混合A恢复=59% (1103s)
+  砍10%       伤害=+0.0144 混合A恢复=-2% (1473s)
+  卡死30%      伤害=+0.0955 混合A恢复=66% (1845s)
+  量化4级       伤害=+0.7275 混合A恢复=89% (2214s)
+  噪声0.5x     伤害=+0.0497 混合A恢复=56% (2593s)
+
+=== 混合A 逐领域评测(损伤=砍30%) ===
+  in     伤害=+0.0448 混合A恢复=58% (2966s)
+  near   伤害=+0.0297 混合A恢复=53% (3345s)
+  far    伤害=+0.0226 混合A恢复=55% (3730s)
+
+完成 62.2 分钟
