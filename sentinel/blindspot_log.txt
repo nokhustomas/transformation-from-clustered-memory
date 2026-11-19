@@ -1,0 +1,14 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 5867.13it/s]
+第4层: 共 3072 个神经元, 组成员 1300 (42%), 从不是成员 1772 (58%)
+每组杀掉 307 个神经元(占全层 10%)
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (551804 > 1024). Running this sequence through the model will result in indexing errors
+评测文档: 120 篇 × 2048 token
+
+[transformers] `loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+健康             伤害=+0.0000  检出(报异常)15%  指向第4层 11%  块比例 L2=10% L4=13% (294s)
+杀成员神经元         伤害=+0.1876  检出(报异常)75%  指向第4层 71%  块比例 L2=10% L4=44% (584s)
+杀非成员神经元        伤害=+0.0145  检出(报异常)15%  指向第4层 11%  块比例 L2=10% L4=13% (875s)
+随机杀            伤害=+0.0224  检出(报异常)17%  指向第4层 12%  块比例 L2=10% L4=15% (1163s)
+
+完成, 用时 19.4 分钟。

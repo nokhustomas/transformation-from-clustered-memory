@@ -1,0 +1,255 @@
+{
+ "config": {
+  "warm_reg": 600,
+  "ramp": 600,
+  "alpha_max": 1.0
+ },
+ "runs": [
+  {
+   "mode": "base",
+   "seed": 0,
+   "diverged": false,
+   "eval_with_completion": {
+    "frequent(rank0-1)": {
+     "n": 375482,
+     "loss": 3.0984561443328857
+    },
+    "mid(rank2-5)": {
+     "n": 229188,
+     "loss": 3.0960965156555176
+    },
+    "rare(rank6-7)": {
+     "n": 130,
+     "loss": 3.224641799926758
+    },
+    "all": {
+     "n": 604800,
+     "loss": 3.0975890159606934
+    }
+   },
+   "eval_without_completion": {
+    "frequent(rank0-1)": {
+     "n": 375482,
+     "loss": 3.0984561443328857
+    },
+    "mid(rank2-5)": {
+     "n": 229188,
+     "loss": 3.0960965156555176
+    },
+    "rare(rank6-7)": {
+     "n": 130,
+     "loss": 3.224641799926758
+    },
+    "all": {
+     "n": 604800,
+     "loss": 3.0975890159606934
+    }
+   }
+  },
+  {
+   "mode": "complete",
+   "seed": 0,
+   "diverged": false,
+   "eval_with_completion": {
+    "frequent(rank0-1)": {
+     "n": 375482,
+     "loss": 3.098468780517578
+    },
+    "mid(rank2-5)": {
+     "n": 229188,
+     "loss": 3.096120834350586
+    },
+    "rare(rank6-7)": {
+     "n": 130,
+     "loss": 3.2232186794281006
+    },
+    "all": {
+     "n": 604800,
+     "loss": 3.0976057052612305
+    }
+   },
+   "eval_without_completion": {
+    "frequent(rank0-1)": {
+     "n": 375482,
+     "loss": 3.0985682010650635
+    },
+    "mid(rank2-5)": {
+     "n": 229188,
+     "loss": 3.096374750137329
+    },
+    "rare(rank6-7)": {
+     "n": 130,
+     "loss": 3.22438907623291
+    },
+    "all": {
+     "n": 604800,
+     "loss": 3.097764253616333
+    }
+   }
+  },
+  {
+   "mode": "placebo",
+   "seed": 0,
+   "diverged": false,
+   "eval_with_completion": {
+    "frequent(rank0-1)": {
+     "n": 375482,
+     "loss": 3.112422227859497
+    },
+    "mid(rank2-5)": {
+     "n": 229188,
+     "loss": 3.1137351989746094
+    },
+    "rare(rank6-7)": {
+     "n": 130,
+     "loss": 3.370126485824585
+    },
+    "all": {
+     "n": 604800,
+     "loss": 3.1129751205444336
+    }
+   },
+   "eval_without_completion": {
+    "frequent(rank0-1)": {
+     "n": 375482,
+     "loss": 3.141812801361084
+    },
+    "mid(rank2-5)": {
+     "n": 229188,
+     "loss": 3.141411542892456
+    },
+    "rare(rank6-7)": {
+     "n": 130,
+     "loss": 3.2879385948181152
+    },
+    "all": {
+     "n": 604800,
+     "loss": 3.1416921615600586
+    }
+   }
+  },
+  {
+   "mode": "base",
+   "seed": 1,
+   "diverged": false,
+   "eval_with_completion": {
+    "frequent(rank0-1)": {
+     "n": 375482,
+     "loss": 3.098444700241089
+    },
+    "mid(rank2-5)": {
+     "n": 229188,
+     "loss": 3.0960745811462402
+    },
+    "rare(rank6-7)": {
+     "n": 130,
+     "loss": 3.2789294719696045
+    },
+    "all": {
+     "n": 604800,
+     "loss": 3.097585678100586
+    }
+   },
+   "eval_without_completion": {
+    "frequent(rank0-1)": {
+     "n": 375482,
+     "loss": 3.098444700241089
+    },
+    "mid(rank2-5)": {
+     "n": 229188,
+     "loss": 3.0960745811462402
+    },
+    "rare(rank6-7)": {
+     "n": 130,
+     "loss": 3.2789294719696045
+    },
+    "all": {
+     "n": 604800,
+     "loss": 3.097585678100586
+    }
+   }
+  },
+  {
+   "mode": "complete",
+   "seed": 1,
+   "diverged": false,
+   "eval_with_completion": {
+    "frequent(rank0-1)": {
+     "n": 375482,
+     "loss": 3.0984668731689453
+    },
+    "mid(rank2-5)": {
+     "n": 229188,
+     "loss": 3.096081018447876
+    },
+    "rare(rank6-7)": {
+     "n": 130,
+     "loss": 3.2764906883239746
+    },
+    "all": {
+     "n": 604800,
+     "loss": 3.0976009368896484
+    }
+   },
+   "eval_without_completion": {
+    "frequent(rank0-1)": {
+     "n": 375482,
+     "loss": 3.0984702110290527
+    },
+    "mid(rank2-5)": {
+     "n": 229188,
+     "loss": 3.0961337089538574
+    },
+    "rare(rank6-7)": {
+     "n": 130,
+     "loss": 3.285726547241211
+    },
+    "all": {
+     "n": 604800,
+     "loss": 3.097625255584717
+    }
+   }
+  },
+  {
+   "mode": "placebo",
+   "seed": 1,
+   "diverged": false,
+   "eval_with_completion": {
+    "frequent(rank0-1)": {
+     "n": 375482,
+     "loss": 3.2896347045898438
+    },
+    "mid(rank2-5)": {
+     "n": 229188,
+     "loss": 3.273874044418335
+    },
+    "rare(rank6-7)": {
+     "n": 130,
+     "loss": 3.4178543090820312
+    },
+    "all": {
+     "n": 604800,
+     "loss": 3.2836897373199463
+    }
+   },
+   "eval_without_completion": {
+    "frequent(rank0-1)": {
+     "n": 375482,
+     "loss": 3.164130687713623
+    },
+    "mid(rank2-5)": {
+     "n": 229188,
+     "loss": 3.1559946537017822
+    },
+    "rare(rank6-7)": {
+     "n": 130,
+     "loss": 3.3750221729278564
+    },
+    "all": {
+     "n": 604800,
+     "loss": 3.16109299659729
+    }
+   }
+  }
+ ]
+}

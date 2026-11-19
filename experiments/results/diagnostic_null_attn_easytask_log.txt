@@ -1,0 +1,32 @@
+
+=== topkraw_pertoken budget=4 (easytask 超参数) ===
+step    1/1300  eval_acc=0.0078  null_attn_weight_mean=0.4411
+step  100/1300  eval_acc=0.1211  null_attn_weight_mean=0.4887
+step  200/1300  eval_acc=0.1191  null_attn_weight_mean=0.4780
+step  300/1300  eval_acc=0.1309  null_attn_weight_mean=0.4852
+step  400/1300  eval_acc=0.1113  null_attn_weight_mean=0.5033
+step  500/1300  eval_acc=0.1309  null_attn_weight_mean=0.5212
+step  600/1300  eval_acc=0.1211  null_attn_weight_mean=0.5038
+step  700/1300  eval_acc=0.1543  null_attn_weight_mean=0.5060
+step  800/1300  eval_acc=0.1387  null_attn_weight_mean=0.5163
+step  900/1300  eval_acc=0.1172  null_attn_weight_mean=0.5210
+step 1000/1300  eval_acc=0.1191  null_attn_weight_mean=0.5204
+step 1100/1300  eval_acc=0.1504  null_attn_weight_mean=0.5158
+step 1200/1300  eval_acc=0.1191  null_attn_weight_mean=0.5155
+step 1300/1300  eval_acc=0.1230  null_attn_weight_mean=0.5159
+
+=== cma_pertoken budget=4 (easytask 超参数) ===
+step    1/1300  eval_acc=0.0039  null_attn_weight_mean=0.4406
+step  100/1300  eval_acc=0.1211  null_attn_weight_mean=0.4804
+step  200/1300  eval_acc=0.1191  null_attn_weight_mean=0.4685
+step  300/1300  eval_acc=0.1309  null_attn_weight_mean=0.4727
+step  400/1300  eval_acc=0.1113  null_attn_weight_mean=0.4795
+step  500/1300  eval_acc=0.1309  null_attn_weight_mean=0.5032
+step  600/1300  eval_acc=0.1211  null_attn_weight_mean=0.5027
+step  700/1300  eval_acc=0.1543  null_attn_weight_mean=0.4927
+step  800/1300  eval_acc=0.1387  null_attn_weight_mean=0.5034
+step  900/1300  eval_acc=0.1172  null_attn_weight_mean=0.4991
+step 1000/1300  eval_acc=0.1191  null_attn_weight_mean=0.4942
+step 1100/1300  eval_acc=0.1504  null_attn_weight_mean=0.4906
+step 1200/1300  eval_acc=0.1191  null_attn_weight_mean=0.4891
+step 1300/1300  eval_acc=0.1230  null_attn_weight_mean=0.4899

@@ -1,0 +1,31 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 4999.88it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (551804 > 1024). Running this sequence through the model will result in indexing errors
+in: 150 篇文档 × 2048 token
+near: 150 篇文档 × 2048 token
+far: 150 篇文档 × 2048 token
+
+先量化每种故障对模型输出的伤害…
+[transformers] `loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+  健康                 loss=2.9043  伤害=+0.0000
+  L4砍10%活跃单元         loss=2.9189  伤害=+0.0146
+  L4砍30%活跃单元         loss=2.9501  伤害=+0.0458
+  L4卡死10%单元          loss=2.9332  伤害=+0.0289
+  L4卡死30%单元          loss=3.0027  伤害=+0.0984
+  L4量化4级             loss=3.6223  伤害=+0.7180
+  L4量化8级             loss=3.1622  伤害=+0.2579
+  L4高斯噪声0.5x         loss=2.9528  伤害=+0.0485
+  L2砍30%活跃单元         loss=2.9319  伤害=+0.0276
+[健康|in] n=150 正常87% 局部12% 全局1% 块比例 L2=10% L4=13% (292s)
+[健康|near] n=150 正常80% 局部20% 全局0% 块比例 L2=18% L4=6% (588s)
+[健康|far] n=150 正常5% 局部91% 全局4% 块比例 L2=72% L4=3% (878s)
+[L4砍10%活跃单元|in] n=150 正常29% 局部67% 全局3% 块比例 L2=10% L4=39% (307s)
+[L4砍30%活跃单元|in] n=150 正常0% 局部96% 全局4% 块比例 L2=10% L4=92% (419s)
+[L4卡死10%单元|in] n=150 正常78% 局部21% 全局1% 块比例 L2=10% L4=17% (431s)
+[L4卡死30%单元|in] n=150 正常46% 局部51% 全局3% 块比例 L2=10% L4=30% (426s)
+[L4量化4级|in] n=150 正常0% 局部96% 全局4% 块比例 L2=10% L4=99% (371s)
+[L4量化8级|in] n=150 正常48% 局部51% 全局1% 块比例 L2=10% L4=32% (600s)
+[L4高斯噪声0.5x|in] n=150 正常80% 局部19% 全局1% 块比例 L2=10% L4=16% (301s)
+[L2砍30%活跃单元|in] n=150 正常1% 局部85% 全局13% 块比例 L2=61% L4=13% (296s)
+
+全部完成, 总耗时 73.0 分钟。

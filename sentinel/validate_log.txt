@@ -1,0 +1,27 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 34034.50it/s]
+模型就绪 (2s)
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (1281273 > 1024). Running this sequence through the model will result in indexing errors
+  建库 30 批: 组数={2: 889, 4: 103}
+  建库 60 批: 组数={2: 1325, 4: 131}
+  建库 90 批: 组数={2: 1707, 4: 156}
+  建库 120 批: 组数={2: 1999, 4: 175}
+建库完成 (74s)
+  L2: 组数=1999/2048 合并=0 登记=15360
+  L4: 组数=175/2048 合并=0 登记=15360
+  L2 覆盖率(评估样本)=0.904
+  L4 覆盖率(评估样本)=0.990
+
+== 故障打在第4层, 第4层检测器 ==
+  drop30    : 开关读数 AUC=0.940±0.011 | 亮度读数 AUC=0.802±0.020
+  noise1.0x : 开关读数 AUC=0.576±0.026 | 亮度读数 AUC=0.553±0.026
+  stuck30%  : 开关读数 AUC=1.000±0.000 | 亮度读数 AUC=0.902±0.014
+  quant4    : 开关读数 AUC=0.634±0.025 | 亮度读数 AUC=0.684±0.024
+
+== 定位: drop30 分别打第2/第4层 ==
+  故障在L2, L2检测器: 开关=0.921 亮度=0.921
+  故障在L2, L4检测器: 开关=0.528 亮度=0.531
+  故障在L4, L2检测器: 开关=0.500 亮度=0.500
+  故障在L4, L4检测器: 开关=0.940 亮度=0.802
+
+完成。登记库已存盘。

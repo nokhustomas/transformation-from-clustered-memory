@@ -1,0 +1,7 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 5045.94it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (551804 > 1024). Running this sequence through the model will result in indexing errors
+建库(三领域混合)…
+multi_only: 误报 in=34% near=5% far=1% | 检出=100% 指向L4=96% (1127s)
+multi_perdoc: 误报 in=17% near=0% far=0% | 检出=100% 指向L4=100% (1950s)
+完成 32.5 分钟

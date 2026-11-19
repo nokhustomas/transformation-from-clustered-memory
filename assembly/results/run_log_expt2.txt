@@ -1,0 +1,25 @@
+实验二: 超稀有尾部词频 [0.36, 0.24, 0.15, 0.1, 0.08, 0.0686, 0.001, 0.0004]
+最优loss参照 3.1375; 训练 3000 步后冻结,补全层=L1
+/home/claude/work/cluster_memory_transformer/assembly/run_expt2_completion.py:171: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:822.)
+  print(f"  [train step {step}/{N_STEPS}] loss={float(loss):.4f} "
+  [train step 500/3000] loss=3.1782 L1组数=16 (34s)
+  [train step 1000/3000] loss=3.1264 L1组数=16 (56s)
+  [train step 1500/3000] loss=3.1652 L1组数=16 (76s)
+  [train step 2000/3000] loss=3.1164 L1组数=16 (97s)
+  [train step 2500/3000] loss=3.1103 L1组数=16 (118s)
+  [train step 3000/3000] loss=3.1722 L1组数=16 (139s)
+
+== 配对评估 alpha=0.5 ==
+  frequent(rank0-1)  n=242471 off=3.1365 | ON Δ=+0.0000(±0.0000) | PLACEBO Δ=+0.0197(±0.0004)
+  mid(rank2-5)       n=160194 off=3.1338 | ON Δ=-0.0000(±0.0000) | PLACEBO Δ=+0.0189(±0.0005)
+  rare(rank6-7)      n=   535 off=3.1775 | ON Δ=-0.0004(±0.0008) | PLACEBO Δ=+0.0138(±0.0073)
+  命中率 on=1.000 每命中注入unit数 on=0.7 placebo=10.6 平均rho=0.902
+
+== 配对评估 alpha=1.0 ==
+  frequent(rank0-1)  n=242471 off=3.1365 | ON Δ=+0.0000(±0.0000) | PLACEBO Δ=+0.0773(±0.0007)
+  mid(rank2-5)       n=160194 off=3.1338 | ON Δ=-0.0000(±0.0000) | PLACEBO Δ=+0.0717(±0.0009)
+  rare(rank6-7)      n=   535 off=3.1775 | ON Δ=-0.0006(±0.0015) | PLACEBO Δ=+0.0552(±0.0137)
+  命中率 on=1.000 每命中注入unit数 on=0.7 placebo=10.6 平均rho=0.902
+
+完成。结果: /home/claude/work/cluster_memory_transformer/assembly/results/expt2_completion_seed0.json

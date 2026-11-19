@@ -1,0 +1,31 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights:   3%|▎         | 2/76 [00:01<01:04,  1.14it/s]Loading weights:   9%|▉         | 7/76 [00:01<00:15,  4.50it/s]Loading weights:  28%|██▊       | 21/76 [00:03<00:07,  7.75it/s]Loading weights:  30%|███       | 23/76 [00:04<00:08,  6.14it/s]Loading weights:  32%|███▏      | 24/76 [00:04<00:10,  5.04it/s]Loading weights:  33%|███▎      | 25/76 [00:06<00:16,  3.03it/s]Loading weights:  46%|████▌     | 35/76 [00:06<00:06,  6.12it/s]Loading weights:  54%|█████▍    | 41/76 [00:07<00:05,  6.40it/s]Loading weights:  61%|██████    | 46/76 [00:08<00:04,  7.12it/s]Loading weights:  64%|██████▍   | 49/76 [00:08<00:04,  5.91it/s]Loading weights:  70%|██████▉   | 53/76 [00:09<00:04,  5.66it/s]Loading weights:  76%|███████▋  | 58/76 [00:10<00:02,  6.47it/s]Loading weights:  83%|████████▎ | 63/76 [00:10<00:01,  7.13it/s]Loading weights:  86%|████████▌ | 65/76 [00:12<00:02,  4.61it/s]Loading weights: 100%|██████████| 76/76 [00:12<00:00,  6.33it/s]
+收集真实状态存档…
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (551804 > 1024). Running this sequence through the model will result in indexing errors
+存档 1024 条, 有组归属 1022 条 (139s)
+[transformers] `loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+  健康                         loss=2.9094 (235s)
+  损坏不修                       loss=2.9545 (331s)
+  一次性换平均态                    loss=3.0654 (435s)
+  一次性换最像的存档                  loss=3.0828 (536s)
+  同组内靠拢 挑剔5 次数1              loss=2.9738 (648s)
+  同组内靠拢 挑剔5 次数3              loss=3.0622 (775s)
+  同组内靠拢 挑剔10 次数1             loss=2.9724 (889s)
+  同组内靠拢 挑剔10 次数3             loss=3.0608 (1015s)
+  同组内靠拢 挑剔30 次数1             loss=2.9729 (1125s)
+  同组内靠拢 挑剔30 次数3             loss=3.0734 (1253s)
+  换成健康真实状态(满分)               loss=2.9094 (1442s)
+
+健康=2.9094 损坏=2.9545 (损坏代价 +0.0451)
+
+  一次性换平均态                    恢复= -246%  (相对损坏 Δ=+0.1110±0.0034)
+  一次性换最像的存档                  恢复= -285%  (相对损坏 Δ=+0.1283±0.0039)
+  同组内靠拢 挑剔5 次数1              恢复=  -43%  (相对损坏 Δ=+0.0194±0.0014)
+  同组内靠拢 挑剔5 次数3              恢复= -239%  (相对损坏 Δ=+0.1078±0.0030)
+  同组内靠拢 挑剔10 次数1             恢复=  -40%  (相对损坏 Δ=+0.0179±0.0014)
+  同组内靠拢 挑剔10 次数3             恢复= -236%  (相对损坏 Δ=+0.1063±0.0029)
+  同组内靠拢 挑剔30 次数1             恢复=  -41%  (相对损坏 Δ=+0.0185±0.0013)
+  同组内靠拢 挑剔30 次数3             恢复= -264%  (相对损坏 Δ=+0.1190±0.0029)
+  换成健康真实状态(满分)               恢复=  100%  (相对损坏 Δ=-0.0451±0.0015)
+
+完成 24.0 分钟

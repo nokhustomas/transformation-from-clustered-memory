@@ -1,0 +1,28 @@
+== A. 损坏修复测试(实验二冻结模型) ==
+  drop=0.3: 损坏Δ=+0.0018 | 补全Δ=+0.0004 (恢复 78%) | 安慰剂Δ=+0.0558 | rho=0.625 注入/命中=5.1 命中率=0.965
+  drop=0.5: 损坏Δ=+0.0034 | 补全Δ=+0.0015 (恢复 54%) | 安慰剂Δ=+0.0375 | rho=0.479 注入/命中=7.8 命中率=0.783
+  drop=0.7: 损坏Δ=+0.0051 | 补全Δ=+0.0043 (恢复 16%) | 安慰剂Δ=+0.0164 | rho=0.386 注入/命中=9.6 命中率=0.318
+
+== B. 极端稀有尾部重训: emit=[0.37, 0.25, 0.15, 0.1, 0.08, 0.04957, 0.0002, 3e-05] ==
+  最优loss参照 3.0988
+/home/claude/work/cluster_memory_transformer/assembly/run_expt2_completion.py:171: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:822.)
+  print(f"  [train step {step}/{N_STEPS}] loss={float(loss):.4f} "
+  [train step 500/3000] loss=3.1361 L1组数=16 (29s)
+  [train step 1000/3000] loss=3.0880 L1组数=16 (50s)
+  [train step 1500/3000] loss=3.1289 L1组数=16 (69s)
+  [train step 2000/3000] loss=3.0833 L1组数=16 (86s)
+  [train step 2500/3000] loss=3.0688 L1组数=16 (104s)
+  [train step 3000/3000] loss=3.1397 L1组数=16 (121s)
+  frequent(rank0-1)  n=375482 off=3.0985 | ON Δ=+0.0000(±0.0000) | PLACEBO Δ=+0.0948(±0.0006)
+  mid(rank2-5)       n=229188 off=3.0961 | ON Δ=-0.0001(±0.0000) | PLACEBO Δ=+0.0862(±0.0008)
+  rare(rank6-7)      n=   130 off=3.2246 | ON Δ=+0.0017(±0.0033) | PLACEBO Δ=+0.0781(±0.0236)
+  命中率 on=1.000 注入/命中=0.6 rho=0.917
+
+  [诊断] 按 rank 看集合残缺度/命中率:
+    frequent       n=10103 命中率=1.000 rho=0.936 命中时缺失unit=0.4
+    mid            n= 6276 命中率=1.000 rho=0.888 命中时缺失unit=0.9
+    rank6(~77次)    n=    4 命中率=1.000 rho=0.644 命中时缺失unit=3.2
+    rank7(~11次)    n=    1 命中率=1.000 rho=0.565 命中时缺失unit=7.0
+
+完成。结果: /home/claude/work/cluster_memory_transformer/assembly/results/expt3_stress_seed0.json

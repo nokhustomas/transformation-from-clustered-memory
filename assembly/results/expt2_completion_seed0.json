@@ -1,0 +1,114 @@
+{
+ "seed": 0,
+ "emit": [
+  0.36,
+  0.24,
+  0.15,
+  0.1,
+  0.08,
+  0.0686,
+  0.001,
+  0.0004
+ ],
+ "layer": 1,
+ "alphas": {
+  "0.5": {
+   "hook_stats": {
+    "off": {
+     "hit_rate": 0.0,
+     "mean_injected_units_per_hit": 0.0,
+     "mean_rho": 0.0
+    },
+    "on": {
+     "hit_rate": 1.0,
+     "mean_injected_units_per_hit": 0.69536376953125,
+     "mean_rho": 0.9017217227816582
+    },
+    "placebo": {
+     "hit_rate": 1.0,
+     "mean_injected_units_per_hit": 10.63708984375,
+     "mean_rho": 0.9017217227816582
+    }
+   },
+   "frequent(rank0-1)": {
+    "n_positions": 242471,
+    "loss_off": 3.13649320602417,
+    "loss_on": 3.1364963054656982,
+    "loss_placebo": 3.1561615467071533,
+    "delta_on": 2.6518821414356353e-06,
+    "delta_on_se": 9.161974958260544e-06,
+    "delta_placebo": 0.019667798653244972,
+    "delta_placebo_se": 0.0003910033847205341
+   },
+   "mid(rank2-5)": {
+    "n_positions": 160194,
+    "loss_off": 3.1337850093841553,
+    "loss_on": 3.1337506771087646,
+    "loss_placebo": 3.1526598930358887,
+    "delta_on": -3.431598452152684e-05,
+    "delta_on_se": 1.6212517948588356e-05,
+    "delta_placebo": 0.018874630331993103,
+    "delta_placebo_se": 0.00045686669182032347
+   },
+   "rare(rank6-7)": {
+    "n_positions": 535,
+    "loss_off": 3.177506446838379,
+    "loss_on": 3.1770589351654053,
+    "loss_placebo": 3.1913094520568848,
+    "delta_on": -0.0004474082961678505,
+    "delta_on_se": 0.0008128034533001482,
+    "delta_placebo": 0.01380332000553608,
+    "delta_placebo_se": 0.007294244598597288
+   }
+  },
+  "1.0": {
+   "hook_stats": {
+    "off": {
+     "hit_rate": 0.0,
+     "mean_injected_units_per_hit": 0.0,
+     "mean_rho": 0.0
+    },
+    "on": {
+     "hit_rate": 1.0,
+     "mean_injected_units_per_hit": 0.69536376953125,
+     "mean_rho": 0.9017217227816582
+    },
+    "placebo": {
+     "hit_rate": 1.0,
+     "mean_injected_units_per_hit": 10.63708984375,
+     "mean_rho": 0.9017217227816582
+    }
+   },
+   "frequent(rank0-1)": {
+    "n_positions": 242471,
+    "loss_off": 3.13649320602417,
+    "loss_on": 3.1365175247192383,
+    "loss_placebo": 3.2137744426727295,
+    "delta_on": 2.4345166821149178e-05,
+    "delta_on_se": 1.8021219148067757e-05,
+    "delta_placebo": 0.07728121429681778,
+    "delta_placebo_se": 0.0007342689787037671
+   },
+   "mid(rank2-5)": {
+    "n_positions": 160194,
+    "loss_off": 3.1337850093841553,
+    "loss_on": 3.133758068084717,
+    "loss_placebo": 3.205528736114502,
+    "delta_on": -2.6888041247730143e-05,
+    "delta_on_se": 3.188597474945709e-05,
+    "delta_placebo": 0.07174360007047653,
+    "delta_placebo_se": 0.0008594027021899819
+   },
+   "rare(rank6-7)": {
+    "n_positions": 535,
+    "loss_off": 3.177506446838379,
+    "loss_on": 3.1769375801086426,
+    "loss_placebo": 3.232656955718994,
+    "delta_on": -0.0005688832025043666,
+    "delta_on_se": 0.001548370230011642,
+    "delta_placebo": 0.055150337517261505,
+    "delta_placebo_se": 0.013683997094631195
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 8594.19it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (551804 > 1024). Running this sequence through the model will result in indexing errors
+{'in': 100, 'near': 100, 'far': 100}
+
+=== single: 建库 (单领域) ===
+  误报 in=32% near=25% far=99% | 检出=100% 指向L4=94% (856s)
+
+=== multi: 建库 (三领域混合) ===
+  误报 in=34% near=5% far=1% | 检出=100% 指向L4=96% (1887s)
+
+=== perdoc: 建库 (单领域) ===
+  误报 in=10% near=6% far=97% | 检出=98% 指向L4=98% (2754s)
+
+完成 45.9 分钟

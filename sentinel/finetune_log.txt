@@ -1,0 +1,40 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/76 [00:00<?, ?it/s]Loading weights: 100%|██████████| 76/76 [00:00<00:00, 5184.30it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (1281273 > 1024). Running this sequence through the model will result in indexing errors
+[transformers] `loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+继续预训练前, 域内损失=4.0837
+/home/claude/work/cluster_memory_transformer/sentinel/finetune_with_registry.py:88: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:822.)
+  print(f"  step {step}/{N_STEPS} loss={float(out.loss):.4f} 组数={gs} "
+  step 50/400 loss=3.2429 组数={2: 1094, 4: 114} (127s)
+  step 100/400 loss=3.5322 组数={2: 1993, 4: 173} (230s)
+  step 150/400 loss=2.6878 组数={2: 2048, 4: 241} (443s)
+  step 200/400 loss=3.0122 组数={2: 2048, 4: 310} (694s)
+  step 250/400 loss=3.2171 组数={2: 2048, 4: 362} (966s)
+  step 300/400 loss=3.3589 组数={2: 2048, 4: 412} (1269s)
+  step 350/400 loss=3.1458 组数={2: 2048, 4: 471} (1591s)
+  step 400/400 loss=3.4011 组数={2: 2048, 4: 507} (1911s)
+继续预训练后, 域内损失=3.0521 (降幅 +1.0316 => 训练是真的)
+
+建档案B(训练后事后重建)…
+  档案B完成 (195s)
+
+== 档案A(边训边建): 覆盖率={2: 0.699, 4: 0.99} ==
+  drop30    : 开关 AUC=0.927±0.012 | 亮度 AUC=0.935±0.012
+  stuck30%  : 开关 AUC=1.000±0.000 | 亮度 AUC=0.999±0.001
+  noise1.0x : 开关 AUC=0.657±0.025 | 亮度 AUC=0.646±0.025
+  quant4    : 开关 AUC=0.580±0.026 | 亮度 AUC=0.969±0.008
+  定位: 故障L2, L2检测器: 开关=0.935
+  定位: 故障L2, L4检测器: 开关=0.503
+  定位: 故障L4, L2检测器: 开关=0.500
+  定位: 故障L4, L4检测器: 开关=0.927
+
+== 档案B(事后重建): 覆盖率={2: 0.793, 4: 0.99} ==
+  drop30    : 开关 AUC=0.921±0.013 | 亮度 AUC=0.930±0.012
+  stuck30%  : 开关 AUC=1.000±0.000 | 亮度 AUC=0.987±0.005
+
+== 档案C(训练前旧档): 覆盖率={2: 0.758, 4: 0.943} ==
+  drop30    : 开关 AUC=0.915±0.013 | 亮度 AUC=0.591±0.026
+  stuck30%  : 开关 AUC=1.000±0.000 | 亮度 AUC=0.545±0.026
+
+完成。

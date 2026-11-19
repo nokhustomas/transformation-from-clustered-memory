@@ -1,0 +1,66 @@
+{
+ "0.3": {
+  "loss_clean": 1.2886056900024414,
+  "hook_stats": {
+   "clean_off": {
+    "hit_rate": 0.0,
+    "mean_injected_units_per_hit": 0.0,
+    "mean_rho": 0.0
+   },
+   "corrupt_off": {
+    "hit_rate": 0.0,
+    "mean_injected_units_per_hit": 0.0,
+    "mean_rho": 0.0
+   },
+   "corrupt_on": {
+    "hit_rate": 0.957109375,
+    "mean_injected_units_per_hit": 3.8446351318259735,
+    "mean_rho": 0.34264529188276166
+   },
+   "corrupt_placebo": {
+    "hit_rate": 0.957109375,
+    "mean_injected_units_per_hit": 8.635693004652682,
+    "mean_rho": 0.34264529188276166
+   }
+  },
+  "delta_corrupt_off": 0.22838620841503143,
+  "se_corrupt_off": 0.0015857586404308677,
+  "delta_corrupt_on": 0.2115461230278015,
+  "se_corrupt_on": 0.0015272019663825631,
+  "delta_corrupt_placebo": 0.3006078898906708,
+  "se_corrupt_placebo": 0.0018321523675695062,
+  "recovery_frac": 0.07373512395559159
+ },
+ "0.5": {
+  "loss_clean": 1.2886056900024414,
+  "hook_stats": {
+   "clean_off": {
+    "hit_rate": 0.0,
+    "mean_injected_units_per_hit": 0.0,
+    "mean_rho": 0.0
+   },
+   "corrupt_off": {
+    "hit_rate": 0.0,
+    "mean_injected_units_per_hit": 0.0,
+    "mean_rho": 0.0
+   },
+   "corrupt_on": {
+    "hit_rate": 0.9283935546875,
+    "mean_injected_units_per_hit": 4.044026612669945,
+    "mean_rho": 0.3144383656215896
+   },
+   "corrupt_placebo": {
+    "hit_rate": 0.9283935546875,
+    "mean_injected_units_per_hit": 8.639109054093144,
+    "mean_rho": 0.3144383656215896
+   }
+  },
+  "delta_corrupt_off": 0.40953153371810913,
+  "se_corrupt_off": 0.0021769157610833645,
+  "delta_corrupt_on": 0.3797283172607422,
+  "se_corrupt_on": 0.0021058451384305954,
+  "delta_corrupt_placebo": 0.4731614589691162,
+  "se_corrupt_placebo": 0.0023548549506813288,
+  "recovery_frac": 0.07277392338212775
+ }
+}
