@@ -7,6 +7,12 @@ Both papers report what happened, including the parts that did not work. Several
 numbers in here are corrections of earlier numbers we reported to ourselves; the
 corrections are in the papers, not hidden.
 
+> **Layout note (2026-11-18).** The project was first uploaded only as
+> `cma-assemblies.zip`. It is now unpacked in place, so every path in this README
+> exists as written. The zip (the original upload) and the two top-level PDFs
+> are kept for existing links. The PDFs are byte-identical to `paper/paper.pdf`
+> and `paper2/paper2.pdf`.
+
 ---
 
 ## Paper 1 — Clustered Memory Augmentation: a three-round null result
@@ -149,13 +155,22 @@ method and success criteria, written before the run it describes).
 
 CPU only, `torch` + `transformers`. Every `run_expt*.py` is standalone.
 
+Run each line from the repository root:
+
 ```bash
-python3 test_cluster_memory.py                # paper 1 mechanism, 8 tests
-cd assembly && python3 test_registry.py       # paper 2 mechanism, 8 tests
-cd assembly && python3 run_expt1_emergence.py # -> results/
-cd sentinel && python3 finetune_with_registry.py   # ~40 min, builds the 82M archive
-cd paper2   && python3 gen_figures.py && latexmk -pdf paper2.tex
+python3 test_cluster_memory.py                  # paper 1 mechanism, 8 tests
+(cd assembly && python3 test_registry.py)       # paper 2 mechanism, 8 tests
+(cd assembly && python3 run_expt1_emergence.py) # -> results/
+(cd sentinel && python3 finetune_with_registry.py)   # ~40 min, builds the 82M archive
+(cd paper2   && python3 gen_figures.py && latexmk -pdf paper2.tex)
 ```
+
+Checked on 2026-11-18 (macOS, Python 3.13, torch 2.11): both unit-test files
+pass (8/8 each); `run_expt1_emergence.py` (seed 0) finishes in about a minute
+and reproduces the logged `expt1_emergence.jsonl` (33 of 40 final metrics
+bit-identical, the rest within 2e-7; layer-1 snapshot: 8 groups, NMI with class
+= 1.0, zero cross-class merges); `gen_figures.py` regenerates all seven figures
+from the logged results. The 82M-model experiments were not rerun.
 
 Large checkpoints (a 313 MB finetuned model and four 97 MB registry archives)
 are **not** in the repo — they are rebuilt by the scripts above in minutes. All
